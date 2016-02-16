@@ -1,0 +1,18 @@
+PODS:
+  - IQKeyboardManagerSwift (3.3.3.1)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - UIActivityIndicator-for-SDWebImage
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: d1a0ee9e1c8a1e648b9331800b9dabc9c52f0c3d
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+
+COCOAPODS: 0.39.0

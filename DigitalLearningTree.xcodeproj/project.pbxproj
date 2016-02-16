@@ -1,0 +1,1813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67D949101443CD923DAA6031 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B8F6C426B83A9ABB2C38B9 /* Pods.framework */; };
+		FF03770C1C05735D00B093C2 /* ScheduleDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF03770B1C05735D00B093C2 /* ScheduleDescriptionViewController.swift */; };
+		FF05BD431BFDC9F700B4C260 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF05BD421BFDC9F700B4C260 /* OtherViewController.swift */; };
+		FF05BD451BFDD6B800B4C260 /* CreateClassDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF05BD441BFDD6B800B4C260 /* CreateClassDescriptionViewController.swift */; };
+		FF1253F91C198D5900ED1D43 /* StudentGradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1253F81C198D5900ED1D43 /* StudentGradeViewController.swift */; };
+		FF129DA91BFE005900299ED5 /* EditClassFeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF129DA81BFE005900299ED5 /* EditClassFeaturesViewController.swift */; };
+		FF1AE67B1BFC86F6004F0612 /* SchoolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1AE67A1BFC86F6004F0612 /* SchoolsViewController.swift */; };
+		FF1AE67D1BFC871F004F0612 /* SchoolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1AE67C1BFC871F004F0612 /* SchoolTableViewCell.swift */; };
+		FF1AE6811BFC9216004F0612 /* Splash-Screen3.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1AE6801BFC9216004F0612 /* Splash-Screen3.png */; };
+		FF1AE6831BFC944E004F0612 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1AE6821BFC944E004F0612 /* bg.png */; };
+		FF1AE6851BFC96FB004F0612 /* TeacherStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1AE6841BFC96FB004F0612 /* TeacherStudentViewController.swift */; };
+		FF23F85E1C2992B600F0725B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF23F85D1C2992B600F0725B /* QuartzCore.framework */; };
+		FF24FF1B1BFC4F6800107D11 /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF24FF1A1BFC4F6800107D11 /* TopicTableViewCell.swift */; };
+		FF29175C1C1F0C6700A2FD4E /* GradeQuizListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29175B1C1F0C6700A2FD4E /* GradeQuizListTableViewCell.swift */; };
+		FF3999141BFB714A000266EF /* TopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3999131BFB714A000266EF /* TopicViewController.swift */; };
+		FF3999161BFB7FDD000266EF /* ArtsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3999151BFB7FDD000266EF /* ArtsViewController.swift */; };
+		FF3D720C1C32DC3E00537080 /* MultipleQuizQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D720B1C32DC3E00537080 /* MultipleQuizQuestionViewController.swift */; };
+		FF4144C51C044F9900C00595 /* grade.png in Resources */ = {isa = PBXBuildFile; fileRef = FF4144C21C044F9800C00595 /* grade.png */; };
+		FF4144CB1C0458F500C00595 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF4144CA1C0458F500C00595 /* 1.png */; };
+		FF4144CD1C04592700C00595 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF4144CC1C04592700C00595 /* 2.png */; };
+		FF44B0391BF5B5CB00938099 /* LessonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44B0381BF5B5CB00938099 /* LessonDetailViewController.swift */; };
+		FF5569DB1BFA2C2D0083F512 /* back-btn copy.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5569DA1BFA2C2D0083F512 /* back-btn copy.png */; };
+		FF5957041BEE282A00257357 /* backcolor.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956A51BEE282A00257357 /* backcolor.png */; };
+		FF5957051BEE282A00257357 /* bold.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956A61BEE282A00257357 /* bold.png */; };
+		FF5957061BEE282A00257357 /* bold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956A71BEE282A00257357 /* bold@2x.png */; };
+		FF5957071BEE282A00257357 /* bullist.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956A81BEE282A00257357 /* bullist.png */; };
+		FF5957081BEE282A00257357 /* bullist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956A91BEE282A00257357 /* bullist@2x.png */; };
+		FF5957091BEE282A00257357 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956AB1BEE282A00257357 /* button.png */; };
+		FF59570A1BEE282A00257357 /* buttoncenter.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956AC1BEE282A00257357 /* buttoncenter.png */; };
+		FF59570B1BEE282A00257357 /* buttoncenterSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956AD1BEE282A00257357 /* buttoncenterSelected.png */; };
+		FF59570C1BEE282A00257357 /* buttonleft.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956AE1BEE282A00257357 /* buttonleft.png */; };
+		FF59570D1BEE282A00257357 /* buttonleftSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956AF1BEE282A00257357 /* buttonleftSelected.png */; };
+		FF59570E1BEE282A00257357 /* buttonright.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956B01BEE282A00257357 /* buttonright.png */; };
+		FF59570F1BEE282A00257357 /* buttonrightSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956B11BEE282A00257357 /* buttonrightSelected.png */; };
+		FF5957101BEE282A00257357 /* buttonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956B21BEE282A00257357 /* buttonSelected.png */; };
+		FF5957111BEE282A00257357 /* dropDownTriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956B31BEE282A00257357 /* dropDownTriangle.png */; };
+		FF5957121BEE282A00257357 /* dropDownTriangle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956B41BEE282A00257357 /* dropDownTriangle@2x.png */; };
+		FF5957131BEE282A00257357 /* code.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956B51BEE282A00257357 /* code.png */; };
+		FF5957141BEE282A00257357 /* colors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF5956B61BEE282A00257357 /* colors.jpg */; };
+		FF5957151BEE282A00257357 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956B71BEE282A00257357 /* email.png */; };
+		FF5957161BEE282A00257357 /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956B81BEE282A00257357 /* file.png */; };
+		FF5957171BEE282A00257357 /* firstLineIndent.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956B91BEE282A00257357 /* firstLineIndent.png */; };
+		FF5957181BEE282A00257357 /* firstLineIndent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956BA1BEE282A00257357 /* firstLineIndent@2x.png */; };
+		FF5957191BEE282A00257357 /* forecolor.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956BB1BEE282A00257357 /* forecolor.png */; };
+		FF59571A1BEE282A00257357 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956BC1BEE282A00257357 /* image.png */; };
+		FF59571B1BEE282A00257357 /* indent.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956BD1BEE282A00257357 /* indent.png */; };
+		FF59571C1BEE282A00257357 /* indent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956BE1BEE282A00257357 /* indent@2x.png */; };
+		FF59571D1BEE282A00257357 /* italic.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956BF1BEE282A00257357 /* italic.png */; };
+		FF59571E1BEE282A00257357 /* italic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956C01BEE282A00257357 /* italic@2x.png */; };
+		FF59571F1BEE282A00257357 /* justifycenter.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956C11BEE282A00257357 /* justifycenter.png */; };
+		FF5957201BEE282A00257357 /* justifycenter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956C21BEE282A00257357 /* justifycenter@2x.png */; };
+		FF5957211BEE282A00257357 /* justifyfull.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956C31BEE282A00257357 /* justifyfull.png */; };
+		FF5957221BEE282A00257357 /* justifyfull@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956C41BEE282A00257357 /* justifyfull@2x.png */; };
+		FF5957231BEE282A00257357 /* justifyleft.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956C51BEE282A00257357 /* justifyleft.png */; };
+		FF5957241BEE282A00257357 /* justifyleft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956C61BEE282A00257357 /* justifyleft@2x.png */; };
+		FF5957251BEE282A00257357 /* justifyright.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956C71BEE282A00257357 /* justifyright.png */; };
+		FF5957261BEE282A00257357 /* justifyright@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956C81BEE282A00257357 /* justifyright@2x.png */; };
+		FF5957271BEE282A00257357 /* link.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956C91BEE282A00257357 /* link.png */; };
+		FF5957281BEE282A00257357 /* numlist.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956CA1BEE282A00257357 /* numlist.png */; };
+		FF5957291BEE282A00257357 /* numlist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956CB1BEE282A00257357 /* numlist@2x.png */; };
+		FF59572A1BEE282A00257357 /* outdent.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956CC1BEE282A00257357 /* outdent.png */; };
+		FF59572B1BEE282A00257357 /* outdent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956CD1BEE282A00257357 /* outdent@2x.png */; };
+		FF59572C1BEE282A00257357 /* redo.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956CE1BEE282A00257357 /* redo.png */; };
+		FF59572D1BEE282A00257357 /* removeformat.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956CF1BEE282A00257357 /* removeformat.png */; };
+		FF59572E1BEE282A00257357 /* strikethrough.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956D01BEE282A00257357 /* strikethrough.png */; };
+		FF59572F1BEE282A00257357 /* strikethrough@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956D11BEE282A00257357 /* strikethrough@2x.png */; };
+		FF5957301BEE282A00257357 /* underline.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956D21BEE282A00257357 /* underline.png */; };
+		FF5957311BEE282A00257357 /* underline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956D31BEE282A00257357 /* underline@2x.png */; };
+		FF5957321BEE282A00257357 /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956D41BEE282A00257357 /* undo.png */; };
+		FF5957331BEE282A00257357 /* unlink.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956D51BEE282A00257357 /* unlink.png */; };
+		FF5957341BEE282A00257357 /* NSAttributedString+RichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5956D81BEE282A00257357 /* NSAttributedString+RichTextEditor.m */; };
+		FF5957351BEE282A00257357 /* UIFont+RichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5956DA1BEE282A00257357 /* UIFont+RichTextEditor.m */; };
+		FF5957361BEE282A00257357 /* UIView+RichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5956DC1BEE282A00257357 /* UIView+RichTextEditor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF5957371BEE282A00257357 /* popoverArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956DF1BEE282A00257357 /* popoverArrowDown.png */; };
+		FF5957381BEE282A00257357 /* popoverArrowDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956E01BEE282A00257357 /* popoverArrowDown@2x.png */; };
+		FF5957391BEE282A00257357 /* popoverArrowDownSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956E11BEE282A00257357 /* popoverArrowDownSimple.png */; };
+		FF59573A1BEE282A00257357 /* popoverArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956E21BEE282A00257357 /* popoverArrowLeft.png */; };
+		FF59573B1BEE282A00257357 /* popoverArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956E31BEE282A00257357 /* popoverArrowLeft@2x.png */; };
+		FF59573C1BEE282A00257357 /* popoverArrowLeftSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956E41BEE282A00257357 /* popoverArrowLeftSimple.png */; };
+		FF59573D1BEE282A00257357 /* popoverArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956E51BEE282A00257357 /* popoverArrowRight.png */; };
+		FF59573E1BEE282A00257357 /* popoverArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956E61BEE282A00257357 /* popoverArrowRight@2x.png */; };
+		FF59573F1BEE282A00257357 /* popoverArrowRightSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956E71BEE282A00257357 /* popoverArrowRightSimple.png */; };
+		FF5957401BEE282A00257357 /* popoverArrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956E81BEE282A00257357 /* popoverArrowUp.png */; };
+		FF5957411BEE282A00257357 /* popoverArrowUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956E91BEE282A00257357 /* popoverArrowUp@2x.png */; };
+		FF5957421BEE282A00257357 /* popoverArrowUpSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956EA1BEE282A00257357 /* popoverArrowUpSimple.png */; };
+		FF5957431BEE282A00257357 /* popoverBg.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956EB1BEE282A00257357 /* popoverBg.png */; };
+		FF5957441BEE282A00257357 /* popoverBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956EC1BEE282A00257357 /* popoverBg@2x.png */; };
+		FF5957451BEE282A00257357 /* popoverBgSimple.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5956ED1BEE282A00257357 /* popoverBgSimple.png */; };
+		FF5957461BEE282A00257357 /* UIBarButtonItem+WEPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5956EF1BEE282A00257357 /* UIBarButtonItem+WEPopover.m */; };
+		FF5957471BEE282A00257357 /* WEPopoverContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5956F11BEE282A00257357 /* WEPopoverContainerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF5957481BEE282A00257357 /* WEPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5956F31BEE282A00257357 /* WEPopoverController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF5957491BEE282A00257357 /* WETouchableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5956F61BEE282A00257357 /* WETouchableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF59574A1BEE282A00257357 /* RichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5956F81BEE282A00257357 /* RichTextEditor.m */; };
+		FF59574B1BEE282A00257357 /* RichTextEditorColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5956FA1BEE282A00257357 /* RichTextEditorColorPickerViewController.m */; };
+		FF59574C1BEE282A00257357 /* RichTextEditorFontPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5956FC1BEE282A00257357 /* RichTextEditorFontPickerViewController.m */; };
+		FF59574D1BEE282A00257357 /* RichTextEditorFontSizePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5956FE1BEE282A00257357 /* RichTextEditorFontSizePickerViewController.m */; };
+		FF59574E1BEE282A00257357 /* RichTextEditorToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5957011BEE282A00257357 /* RichTextEditorToggleButton.m */; };
+		FF59574F1BEE282A00257357 /* RichTextEditorToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5957031BEE282A00257357 /* RichTextEditorToolbar.m */; };
+		FF5E31D61BFCAF5E005AA58F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FF5E31D51BFCAF5E005AA58F /* logo.png */; };
+		FF6935491C04BC9200744AE3 /* ScheduleSelectDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6935481C04BC9200744AE3 /* ScheduleSelectDayViewController.swift */; };
+		FF79B1241C5298010029B7CE /* images (1).png in Resources */ = {isa = PBXBuildFile; fileRef = FF79B1231C5298010029B7CE /* images (1).png */; };
+		FF7D00B01BFB67A6008E2805 /* ClassTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D00AF1BFB67A6008E2805 /* ClassTypeViewController.swift */; };
+		FF820C471C4E7F4800D8E16C /* user_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = FF820C461C4E7F4800D8E16C /* user_placeholder.png */; };
+		FF94CA811BF0EBD3004079E5 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FF94CA801BF0EBD3004079E5 /* arrow.png */; };
+		FF94CA831BF10310004079E5 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = FF94CA821BF10310004079E5 /* delete.png */; };
+		FF982FE61C2511C600998735 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF982FE51C2511C600998735 /* CoreData.framework */; };
+		FF9B5DBB1BF5E578002E5B7E /* delete-clor.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9B5DBA1BF5E578002E5B7E /* delete-clor.png */; };
+		FF9DDF1C1BF614D6005D05F6 /* edit-gren.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9DDF1B1BF614D6005D05F6 /* edit-gren.png */; };
+		FFA0E3591C23E1D50046039F /* StudentQuizResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA0E3581C23E1D50046039F /* StudentQuizResultViewController.swift */; };
+		FFA355F11C50FA6D003171EA /* ResourceTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA355F01C50FA6D003171EA /* ResourceTable.swift */; };
+		FFA4B4921C4A27EB007EE23A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA4B4911C4A27EB007EE23A /* AssetsLibrary.framework */; };
+		FFA4B4DE1C1B1C3900A00C39 /* StudentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA4B4DD1C1B1C3900A00C39 /* StudentDetailViewController.swift */; };
+		FFA534F61BF1DD43001D0D0D /* arroe-white.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA534F01BF1DD43001D0D0D /* arroe-white.png */; };
+		FFA534F71BF1DD43001D0D0D /* arrow-black.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA534F11BF1DD43001D0D0D /* arrow-black.png */; };
+		FFA534F81BF1DD43001D0D0D /* check-edit-sel.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA534F21BF1DD43001D0D0D /* check-edit-sel.png */; };
+		FFA534F91BF1DD43001D0D0D /* check-edit.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA534F31BF1DD43001D0D0D /* check-edit.png */; };
+		FFA534FB1BF1DD43001D0D0D /* edit-green.png in Resources */ = {isa = PBXBuildFile; fileRef = FFA534F51BF1DD43001D0D0D /* edit-green.png */; };
+		FFA5740D1C4E167200D00447 /* StudentClassDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA5740C1C4E167200D00447 /* StudentClassDescViewController.swift */; };
+		FFAD02981C55F2970077A8BF /* LPRTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD02971C55F2970077A8BF /* LPRTableView.swift */; };
+		FFAD02A01C55F71D0077A8BF /* ClassTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD029F1C55F71D0077A8BF /* ClassTable.swift */; };
+		FFB8CDBE1C18734400749BF2 /* no-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FFB8CDBD1C18734400749BF2 /* no-icon.png */; };
+		FFC406AC1C05B5A700A6E054 /* AddCurriculumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC406AB1C05B5A700A6E054 /* AddCurriculumViewController.swift */; };
+		FFC406AF1C05DC1B00A6E054 /* AddCurriculumLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC406AE1C05DC1B00A6E054 /* AddCurriculumLibraryViewController.swift */; };
+		FFC406B11C05E1FA00A6E054 /* AddCuuriculumGradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC406B01C05E1FA00A6E054 /* AddCuuriculumGradeViewController.swift */; };
+		FFC4DEAD1C05EF290033028D /* AddCurriculumCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC4DEAC1C05EF290033028D /* AddCurriculumCountryViewController.swift */; };
+		FFC951031BFF45E600C1252B /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = FFC951021BFF45E600C1252B /* logout.png */; };
+		FFE1AB4D1C0F2D9D007EAD63 /* CreateQuizLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE1AB4C1C0F2D9D007EAD63 /* CreateQuizLessonViewController.swift */; };
+		FFE42CA81C451C0A0099CE7E /* tap-here.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE42CA71C451C090099CE7E /* tap-here.png */; };
+		FFE42CB01C451CEF0099CE7E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE42CAF1C451CEF0099CE7E /* ProfileViewController.swift */; };
+		FFE5ACF91C06C21E004576C0 /* AllScheduleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE5ACF81C06C21E004576C0 /* AllScheduleListViewController.swift */; };
+		FFE5ACFB1C06EF12004576C0 /* AllScheduleDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE5ACFA1C06EF12004576C0 /* AllScheduleDataTableViewCell.swift */; };
+		FFE6F6571BEB22F400F597B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6F6561BEB22F400F597B5 /* AppDelegate.swift */; };
+		FFE6F6591BEB22F400F597B5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6F6581BEB22F400F597B5 /* LoginViewController.swift */; };
+		FFE6F65C1BEB22F400F597B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE6F65A1BEB22F400F597B5 /* Main.storyboard */; };
+		FFE6F65F1BEB22F400F597B5 /* DigitalLearningTree.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFE6F65D1BEB22F400F597B5 /* DigitalLearningTree.xcdatamodeld */; };
+		FFE6F6611BEB22F400F597B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE6F6601BEB22F400F597B5 /* Assets.xcassets */; };
+		FFE6F6641BEB22F400F597B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE6F6621BEB22F400F597B5 /* LaunchScreen.storyboard */; };
+		FFE6F6941BEB823000F597B5 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE6F6901BEB823000F597B5 /* check.png */; };
+		FFE6F6951BEB823000F597B5 /* pass.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE6F6911BEB823000F597B5 /* pass.png */; };
+		FFE6F6961BEB823000F597B5 /* un-check.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE6F6921BEB823000F597B5 /* un-check.png */; };
+		FFE6F6971BEB823000F597B5 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE6F6931BEB823000F597B5 /* user.png */; };
+		FFE6F69B1BEBA1DB00F597B5 /* ClassListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6F69A1BEBA1DB00F597B5 /* ClassListingViewController.swift */; };
+		FFE6F69D1BEBA59600F597B5 /* ClassListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6F69C1BEBA59600F597B5 /* ClassListingTableViewCell.swift */; };
+		FFE70E611C4CC0120031536C /* defaultThumbnail_overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE70E601C4CC0120031536C /* defaultThumbnail_overlay.png */; };
+		FFE70E7E1C4D3EF50031536C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE70E731C4D3EF50031536C /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FFE70E7F1C4D3EF50031536C /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE70E751C4D3EF50031536C /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FFE70E801C4D3EF50031536C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE70E771C4D3EF50031536C /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FFE70E811C4D3EF50031536C /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE70E791C4D3EF50031536C /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FFE70E821C4D3EF50031536C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE70E7C1C4D3EF50031536C /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FFE70E831C4D3EF50031536C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFE70E7D1C4D3EF50031536C /* Info.plist */; };
+		FFE70E851C4D3F740031536C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE70E841C4D3F740031536C /* libsqlite3.0.tbd */; };
+		FFE70E871C4D445B0031536C /* DigitalLearnngtree.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FFE70E861C4D445B0031536C /* DigitalLearnngtree.sqlite */; };
+		FFE70E891C4D457D0031536C /* GetFilePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE70E881C4D457D0031536C /* GetFilePath.swift */; };
+		FFE70E8B1C4D47990031536C /* LessonsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE70E8A1C4D47990031536C /* LessonsTable.swift */; };
+		FFE70E8D1C4D4B8D0031536C /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE70E8C1C4D4B8D0031536C /* ModelManager.swift */; };
+		FFEA7F061C1008840042C532 /* QuizLessonDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEA7F051C1008840042C532 /* QuizLessonDescriptionViewController.swift */; };
+		FFEE3BFB1BEDB933009F238E /* EditClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE3BFA1BEDB933009F238E /* EditClassViewController.swift */; };
+		FFEE3BFD1BEDC429009F238E /* AddClassScheduledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE3BFC1BEDC429009F238E /* AddClassScheduledViewController.swift */; };
+		FFEE3C001BEDD108009F238E /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE3BFF1BEDD108009F238E /* StudentViewController.swift */; };
+		FFEE3C021BEDD117009F238E /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE3C011BEDD117009F238E /* StudentTableViewCell.swift */; };
+		FFEE3C041BEDD743009F238E /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE3C031BEDD743009F238E /* AddStudentViewController.swift */; };
+		FFEE3C071BEDDEAA009F238E /* GradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE3C061BEDDEAA009F238E /* GradeViewController.swift */; };
+		FFEE71F71C30F6AE000CD43B /* GradeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE71F61C30F6AE000CD43B /* GradeTableViewCell.swift */; };
+		FFEE71F91C30F8A6000CD43B /* StudentGradeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE71F81C30F8A6000CD43B /* StudentGradeTableViewCell.swift */; };
+		FFEEA80F1BF9969400E8A444 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEEA80E1BF9969400E8A444 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		FFEEA8111BF9969900E8A444 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEEA8101BF9969900E8A444 /* AVKit.framework */; };
+		FFEEA8151BF9A88000E8A444 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEEA8141BF9A88000E8A444 /* MediaPlayer.framework */; };
+		FFEF05781C1AABF300DF95E8 /* left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FFEF05761C1AABF300DF95E8 /* left_arrow.png */; };
+		FFEF05791C1AABF300DF95E8 /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FFEF05771C1AABF300DF95E8 /* right_arrow.png */; };
+		FFEFD7C41BF0983400A29A5B /* SyllabusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFD7C31BF0983400A29A5B /* SyllabusViewController.swift */; };
+		FFEFD7C61BF09B8200A29A5B /* ViewClassResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFD7C51BF09B8200A29A5B /* ViewClassResourceViewController.swift */; };
+		FFEFD7C81BF0A71C00A29A5B /* Student.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEFD7C71BF0A71C00A29A5B /* Student.storyboard */; };
+		FFEFD7CD1BF0A94700A29A5B /* StudentClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFD7CC1BF0A94700A29A5B /* StudentClassViewController.swift */; };
+		FFEFD7CF1BF0B33900A29A5B /* StudentClassTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFD7CE1BF0B33900A29A5B /* StudentClassTableViewCell.swift */; };
+		FFEFD7D21BF0B7B100A29A5B /* StudentLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFD7D11BF0B7B100A29A5B /* StudentLessonViewController.swift */; };
+		FFEFD7D41BF0B83E00A29A5B /* StudentLessonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFD7D31BF0B83E00A29A5B /* StudentLessonTableViewCell.swift */; };
+		FFEFD7D71BF0B9CB00A29A5B /* StudentQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFD7D61BF0B9CB00A29A5B /* StudentQuizViewController.swift */; };
+		FFEFD7D91BF0B9EA00A29A5B /* StudentQuizTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFD7D81BF0B9EA00A29A5B /* StudentQuizTableViewCell.swift */; };
+		FFEFD7DB1BF0BBA800A29A5B /* StudentQuizQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFD7DA1BF0BBA800A29A5B /* StudentQuizQuestionViewController.swift */; };
+		FFEFD7DE1BF0BE3C00A29A5B /* StudentClassResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFD7DD1BF0BE3C00A29A5B /* StudentClassResourceViewController.swift */; };
+		FFEFD7E01BF0BE4E00A29A5B /* StudentClassResourceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFD7DF1BF0BE4E00A29A5B /* StudentClassResourceTableViewCell.swift */; };
+		FFEFD7E21BF0BFB500A29A5B /* StudentViewClassResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFD7E11BF0BFB500A29A5B /* StudentViewClassResourceViewController.swift */; };
+		FFEFD7E51BF0C0BA00A29A5B /* StudentEnrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFD7E41BF0C0BA00A29A5B /* StudentEnrollViewController.swift */; };
+		FFEFD7E71BF0D83100A29A5B /* ChangePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFD7E61BF0D83100A29A5B /* ChangePictureViewController.swift */; };
+		FFEFD7E91BF0DC4C00A29A5B /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFEFD7E81BF0DC4C00A29A5B /* image.jpg */; };
+		FFEFD7EB1BF0DED400A29A5B /* DeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEFD7EA1BF0DED400A29A5B /* DeleteViewController.swift */; };
+		FFEFF8F81C2BAA8A0030D038 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEFF8E31C2BAA640030D038 /* Alamofire.framework */; };
+		FFEFF8F91C2BAA8A0030D038 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFEFF8E31C2BAA640030D038 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFF0017C1BEC8459000B5C07 /* CreateClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF0017B1BEC8459000B5C07 /* CreateClassViewController.swift */; };
+		FFF0017E1BEC88C2000B5C07 /* ClassNameAndDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF0017D1BEC88C2000B5C07 /* ClassNameAndDetailViewController.swift */; };
+		FFF001811BECB253000B5C07 /* LessonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF001801BECB253000B5C07 /* LessonsViewController.swift */; };
+		FFF001831BECB26A000B5C07 /* LessonsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF001821BECB26A000B5C07 /* LessonsTableViewCell.swift */; };
+		FFF0018B1BECBD1E000B5C07 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF0018A1BECBD1E000B5C07 /* menu.png */; };
+		FFF0018F1BECC14D000B5C07 /* CreateLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF0018E1BECC14D000B5C07 /* CreateLessonViewController.swift */; };
+		FFF001911BECC9E6000B5C07 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF001901BECC9E6000B5C07 /* refresh.png */; };
+		FFF001961BECCF5F000B5C07 /* ClassResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF001951BECCF5F000B5C07 /* ClassResourcesViewController.swift */; };
+		FFF001981BECCF70000B5C07 /* ClassResourcesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF001971BECCF70000B5C07 /* ClassResourcesTableViewCell.swift */; };
+		FFF0019A1BECD13A000B5C07 /* AddClassResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF001991BECD13A000B5C07 /* AddClassResourcesViewController.swift */; };
+		FFF0019D1BECD406000B5C07 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF0019C1BECD406000B5C07 /* QuizViewController.swift */; };
+		FFF0019F1BECD413000B5C07 /* QuizTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF0019E1BECD413000B5C07 /* QuizTableViewCell.swift */; };
+		FFF001A11BECDDB7000B5C07 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF001A01BECDDB7000B5C07 /* add.png */; };
+		FFF001A31BECE058000B5C07 /* QuizAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF001A21BECE058000B5C07 /* QuizAdd.png */; };
+		FFF001A51BECE184000B5C07 /* CreateQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF001A41BECE184000B5C07 /* CreateQuizViewController.swift */; };
+		FFF001A71BECF153000B5C07 /* QuizQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF001A61BECF153000B5C07 /* QuizQuestionViewController.swift */; };
+		FFF001AE1BECF74C000B5C07 /* menu1.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF001A81BECF74C000B5C07 /* menu1.png */; };
+		FFF001AF1BECF74C000B5C07 /* menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF001A91BECF74C000B5C07 /* menu2.png */; };
+		FFF001B01BECF74C000B5C07 /* menu3.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF001AA1BECF74C000B5C07 /* menu3.png */; };
+		FFF001B11BECF74C000B5C07 /* menu4.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF001AB1BECF74C000B5C07 /* menu4.png */; };
+		FFF001B21BECF74C000B5C07 /* menu5.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF001AC1BECF74C000B5C07 /* menu5.png */; };
+		FFF001B31BECF74C000B5C07 /* menu6.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF001AD1BECF74C000B5C07 /* menu6.png */; };
+		FFF291721C290E6400411EBD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF291711C290E6400411EBD /* CoreMedia.framework */; };
+		FFF59D4E1BFAF80800D374D8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF59D4D1BFAF80800D374D8 /* MBProgressHUD.m */; };
+		FFF59D551BFB019800D374D8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF59D541BFB019800D374D8 /* Reachability.swift */; };
+		FFF911CE1C284E100041599F /* logoutClasses.png in Resources */ = {isa = PBXBuildFile; fileRef = FFF911CD1C284E100041599F /* logoutClasses.png */; };
+		FFFA5E281BF19A45005E9D1F /* GradeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFA5E271BF19A45005E9D1F /* GradeDetailViewController.swift */; };
+		FFFA5E2B1BF1A3C7005E9D1F /* check-box.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFA5E291BF1A3C7005E9D1F /* check-box.png */; };
+		FFFA5E2C1BF1A3C7005E9D1F /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFA5E2A1BF1A3C7005E9D1F /* uncheck.png */; };
+		FFFB10D31C31489A0083018F /* sounds-882-solemn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFFB10D21C31489A0083018F /* sounds-882-solemn.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFEFF8E21C2BAA640030D038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFEFF8D81C2BAA640030D038 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		FFEFF8E41C2BAA640030D038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFEFF8D81C2BAA640030D038 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		FFEFF8E61C2BAA640030D038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFEFF8D81C2BAA640030D038 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		FFEFF8E81C2BAA640030D038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFEFF8D81C2BAA640030D038 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		FFEFF8EA1C2BAA640030D038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFEFF8D81C2BAA640030D038 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		FFEFF8EC1C2BAA640030D038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFEFF8D81C2BAA640030D038 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		FFEFF8EE1C2BAA640030D038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFEFF8D81C2BAA640030D038 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		FFEFF8FA1C2BAA8A0030D038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFEFF8D81C2BAA640030D038 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF89580D1C242F9F009862FC /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEF82B71C184680007DED34 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FFEFF8F91C2BAA8A0030D038 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17B8F6C426B83A9ABB2C38B9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD20560ADECEBCF60DF37EB1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E23D46C3DD5EF9B865A63F31 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FF03770B1C05735D00B093C2 /* ScheduleDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleDescriptionViewController.swift; sourceTree = "<group>"; };
+		FF05BD421BFDC9F700B4C260 /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		FF05BD441BFDD6B800B4C260 /* CreateClassDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateClassDescriptionViewController.swift; sourceTree = "<group>"; };
+		FF1253F81C198D5900ED1D43 /* StudentGradeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentGradeViewController.swift; sourceTree = "<group>"; };
+		FF129DA81BFE005900299ED5 /* EditClassFeaturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditClassFeaturesViewController.swift; sourceTree = "<group>"; };
+		FF1AE67A1BFC86F6004F0612 /* SchoolsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolsViewController.swift; sourceTree = "<group>"; };
+		FF1AE67C1BFC871F004F0612 /* SchoolTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTableViewCell.swift; sourceTree = "<group>"; };
+		FF1AE6801BFC9216004F0612 /* Splash-Screen3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Splash-Screen3.png"; sourceTree = "<group>"; };
+		FF1AE6821BFC944E004F0612 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		FF1AE6841BFC96FB004F0612 /* TeacherStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherStudentViewController.swift; sourceTree = "<group>"; };
+		FF23F85D1C2992B600F0725B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FF24FF1A1BFC4F6800107D11 /* TopicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		FF29175B1C1F0C6700A2FD4E /* GradeQuizListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeQuizListTableViewCell.swift; sourceTree = "<group>"; };
+		FF3999131BFB714A000266EF /* TopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicViewController.swift; sourceTree = "<group>"; };
+		FF3999151BFB7FDD000266EF /* ArtsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtsViewController.swift; sourceTree = "<group>"; };
+		FF3D720B1C32DC3E00537080 /* MultipleQuizQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleQuizQuestionViewController.swift; sourceTree = "<group>"; };
+		FF4144C21C044F9800C00595 /* grade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grade.png; sourceTree = "<group>"; };
+		FF4144CA1C0458F500C00595 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		FF4144CC1C04592700C00595 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		FF44B0381BF5B5CB00938099 /* LessonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonDetailViewController.swift; sourceTree = "<group>"; };
+		FF5569DA1BFA2C2D0083F512 /* back-btn copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-btn copy.png"; sourceTree = "<group>"; };
+		FF5956A51BEE282A00257357 /* backcolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backcolor.png; sourceTree = "<group>"; };
+		FF5956A61BEE282A00257357 /* bold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bold.png; sourceTree = "<group>"; };
+		FF5956A71BEE282A00257357 /* bold@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bold@2x.png"; sourceTree = "<group>"; };
+		FF5956A81BEE282A00257357 /* bullist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullist.png; sourceTree = "<group>"; };
+		FF5956A91BEE282A00257357 /* bullist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bullist@2x.png"; sourceTree = "<group>"; };
+		FF5956AB1BEE282A00257357 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		FF5956AC1BEE282A00257357 /* buttoncenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttoncenter.png; sourceTree = "<group>"; };
+		FF5956AD1BEE282A00257357 /* buttoncenterSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttoncenterSelected.png; sourceTree = "<group>"; };
+		FF5956AE1BEE282A00257357 /* buttonleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonleft.png; sourceTree = "<group>"; };
+		FF5956AF1BEE282A00257357 /* buttonleftSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonleftSelected.png; sourceTree = "<group>"; };
+		FF5956B01BEE282A00257357 /* buttonright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonright.png; sourceTree = "<group>"; };
+		FF5956B11BEE282A00257357 /* buttonrightSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonrightSelected.png; sourceTree = "<group>"; };
+		FF5956B21BEE282A00257357 /* buttonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonSelected.png; sourceTree = "<group>"; };
+		FF5956B31BEE282A00257357 /* dropDownTriangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropDownTriangle.png; sourceTree = "<group>"; };
+		FF5956B41BEE282A00257357 /* dropDownTriangle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropDownTriangle@2x.png"; sourceTree = "<group>"; };
+		FF5956B51BEE282A00257357 /* code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = code.png; sourceTree = "<group>"; };
+		FF5956B61BEE282A00257357 /* colors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colors.jpg; sourceTree = "<group>"; };
+		FF5956B71BEE282A00257357 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		FF5956B81BEE282A00257357 /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
+		FF5956B91BEE282A00257357 /* firstLineIndent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstLineIndent.png; sourceTree = "<group>"; };
+		FF5956BA1BEE282A00257357 /* firstLineIndent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstLineIndent@2x.png"; sourceTree = "<group>"; };
+		FF5956BB1BEE282A00257357 /* forecolor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forecolor.png; sourceTree = "<group>"; };
+		FF5956BC1BEE282A00257357 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		FF5956BD1BEE282A00257357 /* indent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indent.png; sourceTree = "<group>"; };
+		FF5956BE1BEE282A00257357 /* indent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "indent@2x.png"; sourceTree = "<group>"; };
+		FF5956BF1BEE282A00257357 /* italic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = italic.png; sourceTree = "<group>"; };
+		FF5956C01BEE282A00257357 /* italic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "italic@2x.png"; sourceTree = "<group>"; };
+		FF5956C11BEE282A00257357 /* justifycenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = justifycenter.png; sourceTree = "<group>"; };
+		FF5956C21BEE282A00257357 /* justifycenter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "justifycenter@2x.png"; sourceTree = "<group>"; };
+		FF5956C31BEE282A00257357 /* justifyfull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = justifyfull.png; sourceTree = "<group>"; };
+		FF5956C41BEE282A00257357 /* justifyfull@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "justifyfull@2x.png"; sourceTree = "<group>"; };
+		FF5956C51BEE282A00257357 /* justifyleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = justifyleft.png; sourceTree = "<group>"; };
+		FF5956C61BEE282A00257357 /* justifyleft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "justifyleft@2x.png"; sourceTree = "<group>"; };
+		FF5956C71BEE282A00257357 /* justifyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = justifyright.png; sourceTree = "<group>"; };
+		FF5956C81BEE282A00257357 /* justifyright@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "justifyright@2x.png"; sourceTree = "<group>"; };
+		FF5956C91BEE282A00257357 /* link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = link.png; sourceTree = "<group>"; };
+		FF5956CA1BEE282A00257357 /* numlist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = numlist.png; sourceTree = "<group>"; };
+		FF5956CB1BEE282A00257357 /* numlist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numlist@2x.png"; sourceTree = "<group>"; };
+		FF5956CC1BEE282A00257357 /* outdent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outdent.png; sourceTree = "<group>"; };
+		FF5956CD1BEE282A00257357 /* outdent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "outdent@2x.png"; sourceTree = "<group>"; };
+		FF5956CE1BEE282A00257357 /* redo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redo.png; sourceTree = "<group>"; };
+		FF5956CF1BEE282A00257357 /* removeformat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = removeformat.png; sourceTree = "<group>"; };
+		FF5956D01BEE282A00257357 /* strikethrough.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strikethrough.png; sourceTree = "<group>"; };
+		FF5956D11BEE282A00257357 /* strikethrough@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strikethrough@2x.png"; sourceTree = "<group>"; };
+		FF5956D21BEE282A00257357 /* underline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = underline.png; sourceTree = "<group>"; };
+		FF5956D31BEE282A00257357 /* underline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "underline@2x.png"; sourceTree = "<group>"; };
+		FF5956D41BEE282A00257357 /* undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo.png; sourceTree = "<group>"; };
+		FF5956D51BEE282A00257357 /* unlink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlink.png; sourceTree = "<group>"; };
+		FF5956D71BEE282A00257357 /* NSAttributedString+RichTextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+RichTextEditor.h"; sourceTree = "<group>"; };
+		FF5956D81BEE282A00257357 /* NSAttributedString+RichTextEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+RichTextEditor.m"; sourceTree = "<group>"; };
+		FF5956D91BEE282A00257357 /* UIFont+RichTextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+RichTextEditor.h"; sourceTree = "<group>"; };
+		FF5956DA1BEE282A00257357 /* UIFont+RichTextEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+RichTextEditor.m"; sourceTree = "<group>"; };
+		FF5956DB1BEE282A00257357 /* UIView+RichTextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RichTextEditor.h"; sourceTree = "<group>"; };
+		FF5956DC1BEE282A00257357 /* UIView+RichTextEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RichTextEditor.m"; sourceTree = "<group>"; };
+		FF5956DF1BEE282A00257357 /* popoverArrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowDown.png; sourceTree = "<group>"; };
+		FF5956E01BEE282A00257357 /* popoverArrowDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowDown@2x.png"; sourceTree = "<group>"; };
+		FF5956E11BEE282A00257357 /* popoverArrowDownSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowDownSimple.png; sourceTree = "<group>"; };
+		FF5956E21BEE282A00257357 /* popoverArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowLeft.png; sourceTree = "<group>"; };
+		FF5956E31BEE282A00257357 /* popoverArrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowLeft@2x.png"; sourceTree = "<group>"; };
+		FF5956E41BEE282A00257357 /* popoverArrowLeftSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowLeftSimple.png; sourceTree = "<group>"; };
+		FF5956E51BEE282A00257357 /* popoverArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowRight.png; sourceTree = "<group>"; };
+		FF5956E61BEE282A00257357 /* popoverArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowRight@2x.png"; sourceTree = "<group>"; };
+		FF5956E71BEE282A00257357 /* popoverArrowRightSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowRightSimple.png; sourceTree = "<group>"; };
+		FF5956E81BEE282A00257357 /* popoverArrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowUp.png; sourceTree = "<group>"; };
+		FF5956E91BEE282A00257357 /* popoverArrowUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowUp@2x.png"; sourceTree = "<group>"; };
+		FF5956EA1BEE282A00257357 /* popoverArrowUpSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowUpSimple.png; sourceTree = "<group>"; };
+		FF5956EB1BEE282A00257357 /* popoverBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverBg.png; sourceTree = "<group>"; };
+		FF5956EC1BEE282A00257357 /* popoverBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverBg@2x.png"; sourceTree = "<group>"; };
+		FF5956ED1BEE282A00257357 /* popoverBgSimple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverBgSimple.png; sourceTree = "<group>"; };
+		FF5956EE1BEE282A00257357 /* UIBarButtonItem+WEPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WEPopover.h"; sourceTree = "<group>"; };
+		FF5956EF1BEE282A00257357 /* UIBarButtonItem+WEPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WEPopover.m"; sourceTree = "<group>"; };
+		FF5956F01BEE282A00257357 /* WEPopoverContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverContainerView.h; sourceTree = "<group>"; };
+		FF5956F11BEE282A00257357 /* WEPopoverContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEPopoverContainerView.m; sourceTree = "<group>"; };
+		FF5956F21BEE282A00257357 /* WEPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverController.h; sourceTree = "<group>"; };
+		FF5956F31BEE282A00257357 /* WEPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEPopoverController.m; sourceTree = "<group>"; };
+		FF5956F41BEE282A00257357 /* WEPopoverParentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverParentView.h; sourceTree = "<group>"; };
+		FF5956F51BEE282A00257357 /* WETouchableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WETouchableView.h; sourceTree = "<group>"; };
+		FF5956F61BEE282A00257357 /* WETouchableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WETouchableView.m; sourceTree = "<group>"; };
+		FF5956F71BEE282A00257357 /* RichTextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichTextEditor.h; sourceTree = "<group>"; };
+		FF5956F81BEE282A00257357 /* RichTextEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichTextEditor.m; sourceTree = "<group>"; };
+		FF5956F91BEE282A00257357 /* RichTextEditorColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichTextEditorColorPickerViewController.h; sourceTree = "<group>"; };
+		FF5956FA1BEE282A00257357 /* RichTextEditorColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichTextEditorColorPickerViewController.m; sourceTree = "<group>"; };
+		FF5956FB1BEE282A00257357 /* RichTextEditorFontPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichTextEditorFontPickerViewController.h; sourceTree = "<group>"; };
+		FF5956FC1BEE282A00257357 /* RichTextEditorFontPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichTextEditorFontPickerViewController.m; sourceTree = "<group>"; };
+		FF5956FD1BEE282A00257357 /* RichTextEditorFontSizePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichTextEditorFontSizePickerViewController.h; sourceTree = "<group>"; };
+		FF5956FE1BEE282A00257357 /* RichTextEditorFontSizePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichTextEditorFontSizePickerViewController.m; sourceTree = "<group>"; };
+		FF5956FF1BEE282A00257357 /* RichTextEditorPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichTextEditorPopover.h; sourceTree = "<group>"; };
+		FF5957001BEE282A00257357 /* RichTextEditorToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichTextEditorToggleButton.h; sourceTree = "<group>"; };
+		FF5957011BEE282A00257357 /* RichTextEditorToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichTextEditorToggleButton.m; sourceTree = "<group>"; };
+		FF5957021BEE282A00257357 /* RichTextEditorToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichTextEditorToolbar.h; sourceTree = "<group>"; };
+		FF5957031BEE282A00257357 /* RichTextEditorToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichTextEditorToolbar.m; sourceTree = "<group>"; };
+		FF5E31D51BFCAF5E005AA58F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		FF6935481C04BC9200744AE3 /* ScheduleSelectDayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleSelectDayViewController.swift; sourceTree = "<group>"; };
+		FF79B1231C5298010029B7CE /* images (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "images (1).png"; sourceTree = "<group>"; };
+		FF7D00AF1BFB67A6008E2805 /* ClassTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassTypeViewController.swift; sourceTree = "<group>"; };
+		FF820C461C4E7F4800D8E16C /* user_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_placeholder.png; sourceTree = "<group>"; };
+		FF94CA801BF0EBD3004079E5 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		FF94CA821BF10310004079E5 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		FF982FE51C2511C600998735 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FF9B5DBA1BF5E578002E5B7E /* delete-clor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete-clor.png"; sourceTree = "<group>"; };
+		FF9DDF1B1BF614D6005D05F6 /* edit-gren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-gren.png"; sourceTree = "<group>"; };
+		FFA0E3581C23E1D50046039F /* StudentQuizResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentQuizResultViewController.swift; sourceTree = "<group>"; };
+		FFA355F01C50FA6D003171EA /* ResourceTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceTable.swift; sourceTree = "<group>"; };
+		FFA4B4901C4A253A007EE23A /* DLT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DLT-Bridging-Header.h"; sourceTree = "<group>"; };
+		FFA4B4911C4A27EB007EE23A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		FFA4B4DD1C1B1C3900A00C39 /* StudentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDetailViewController.swift; sourceTree = "<group>"; };
+		FFA534F01BF1DD43001D0D0D /* arroe-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arroe-white.png"; sourceTree = "<group>"; };
+		FFA534F11BF1DD43001D0D0D /* arrow-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-black.png"; sourceTree = "<group>"; };
+		FFA534F21BF1DD43001D0D0D /* check-edit-sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-edit-sel.png"; sourceTree = "<group>"; };
+		FFA534F31BF1DD43001D0D0D /* check-edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-edit.png"; sourceTree = "<group>"; };
+		FFA534F51BF1DD43001D0D0D /* edit-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit-green.png"; sourceTree = "<group>"; };
+		FFA5740C1C4E167200D00447 /* StudentClassDescViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentClassDescViewController.swift; sourceTree = "<group>"; };
+		FFAD02971C55F2970077A8BF /* LPRTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPRTableView.swift; sourceTree = "<group>"; };
+		FFAD029F1C55F71D0077A8BF /* ClassTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassTable.swift; sourceTree = "<group>"; };
+		FFB8CDBD1C18734400749BF2 /* no-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-icon.png"; sourceTree = "<group>"; };
+		FFC406AB1C05B5A700A6E054 /* AddCurriculumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCurriculumViewController.swift; sourceTree = "<group>"; };
+		FFC406AE1C05DC1B00A6E054 /* AddCurriculumLibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCurriculumLibraryViewController.swift; sourceTree = "<group>"; };
+		FFC406B01C05E1FA00A6E054 /* AddCuuriculumGradeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCuuriculumGradeViewController.swift; sourceTree = "<group>"; };
+		FFC4DEAC1C05EF290033028D /* AddCurriculumCountryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCurriculumCountryViewController.swift; sourceTree = "<group>"; };
+		FFC951021BFF45E600C1252B /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		FFE1AB4C1C0F2D9D007EAD63 /* CreateQuizLessonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateQuizLessonViewController.swift; sourceTree = "<group>"; };
+		FFE42CA71C451C090099CE7E /* tap-here.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tap-here.png"; sourceTree = "<group>"; };
+		FFE42CAF1C451CEF0099CE7E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FFE5ACF81C06C21E004576C0 /* AllScheduleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllScheduleListViewController.swift; sourceTree = "<group>"; };
+		FFE5ACFA1C06EF12004576C0 /* AllScheduleDataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllScheduleDataTableViewCell.swift; sourceTree = "<group>"; };
+		FFE6F6531BEB22F400F597B5 /* DigitalLearningTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalLearningTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE6F6561BEB22F400F597B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = DigitalLearningTree/AppDelegate.swift; sourceTree = "<group>"; };
+		FFE6F6581BEB22F400F597B5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = DigitalLearningTree/LoginViewController.swift; sourceTree = "<group>"; };
+		FFE6F65B1BEB22F400F597B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFE6F65E1BEB22F400F597B5 /* DigitalLearningTree.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DigitalLearningTree.xcdatamodel; sourceTree = "<group>"; };
+		FFE6F6601BEB22F400F597B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DigitalLearningTree/Assets.xcassets; sourceTree = "<group>"; };
+		FFE6F6631BEB22F400F597B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFE6F6651BEB22F400F597B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = DigitalLearningTree/Info.plist; sourceTree = "<group>"; };
+		FFE6F66E1BEB22F400F597B5 /* DigitalLearningTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalLearningTreeTests.swift; sourceTree = "<group>"; };
+		FFE6F6701BEB22F400F597B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE6F6791BEB22F400F597B5 /* DigitalLearningTreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalLearningTreeUITests.swift; sourceTree = "<group>"; };
+		FFE6F67B1BEB22F400F597B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE6F6901BEB823000F597B5 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		FFE6F6911BEB823000F597B5 /* pass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pass.png; sourceTree = "<group>"; };
+		FFE6F6921BEB823000F597B5 /* un-check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "un-check.png"; sourceTree = "<group>"; };
+		FFE6F6931BEB823000F597B5 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		FFE6F69A1BEBA1DB00F597B5 /* ClassListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassListingViewController.swift; sourceTree = "<group>"; };
+		FFE6F69C1BEBA59600F597B5 /* ClassListingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassListingTableViewCell.swift; sourceTree = "<group>"; };
+		FFE70E601C4CC0120031536C /* defaultThumbnail_overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultThumbnail_overlay.png; sourceTree = "<group>"; };
+		FFE70E721C4D3EF50031536C /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		FFE70E731C4D3EF50031536C /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		FFE70E741C4D3EF50031536C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		FFE70E751C4D3EF50031536C /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		FFE70E761C4D3EF50031536C /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		FFE70E771C4D3EF50031536C /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		FFE70E781C4D3EF50031536C /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		FFE70E791C4D3EF50031536C /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		FFE70E7A1C4D3EF50031536C /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		FFE70E7B1C4D3EF50031536C /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		FFE70E7C1C4D3EF50031536C /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		FFE70E7D1C4D3EF50031536C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE70E841C4D3F740031536C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		FFE70E861C4D445B0031536C /* DigitalLearnngtree.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = DigitalLearnngtree.sqlite; sourceTree = "<group>"; };
+		FFE70E881C4D457D0031536C /* GetFilePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFilePath.swift; sourceTree = "<group>"; };
+		FFE70E8A1C4D47990031536C /* LessonsTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsTable.swift; sourceTree = "<group>"; };
+		FFE70E8C1C4D4B8D0031536C /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		FFEA7F051C1008840042C532 /* QuizLessonDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizLessonDescriptionViewController.swift; sourceTree = "<group>"; };
+		FFEE3BFA1BEDB933009F238E /* EditClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditClassViewController.swift; sourceTree = "<group>"; };
+		FFEE3BFC1BEDC429009F238E /* AddClassScheduledViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AddClassScheduledViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FFEE3BFF1BEDD108009F238E /* StudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		FFEE3C011BEDD117009F238E /* StudentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		FFEE3C031BEDD743009F238E /* AddStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		FFEE3C061BEDDEAA009F238E /* GradeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeViewController.swift; sourceTree = "<group>"; };
+		FFEE71F61C30F6AE000CD43B /* GradeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeTableViewCell.swift; sourceTree = "<group>"; };
+		FFEE71F81C30F8A6000CD43B /* StudentGradeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentGradeTableViewCell.swift; sourceTree = "<group>"; };
+		FFEEA80E1BF9969400E8A444 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FFEEA8101BF9969900E8A444 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		FFEEA8141BF9A88000E8A444 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FFEF05761C1AABF300DF95E8 /* left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_arrow.png; sourceTree = "<group>"; };
+		FFEF05771C1AABF300DF95E8 /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_arrow.png; sourceTree = "<group>"; };
+		FFEFD7C31BF0983400A29A5B /* SyllabusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyllabusViewController.swift; sourceTree = "<group>"; };
+		FFEFD7C51BF09B8200A29A5B /* ViewClassResourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewClassResourceViewController.swift; sourceTree = "<group>"; };
+		FFEFD7C71BF0A71C00A29A5B /* Student.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Student.storyboard; sourceTree = "<group>"; };
+		FFEFD7CC1BF0A94700A29A5B /* StudentClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentClassViewController.swift; sourceTree = "<group>"; };
+		FFEFD7CE1BF0B33900A29A5B /* StudentClassTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentClassTableViewCell.swift; sourceTree = "<group>"; };
+		FFEFD7D11BF0B7B100A29A5B /* StudentLessonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentLessonViewController.swift; sourceTree = "<group>"; };
+		FFEFD7D31BF0B83E00A29A5B /* StudentLessonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentLessonTableViewCell.swift; sourceTree = "<group>"; };
+		FFEFD7D61BF0B9CB00A29A5B /* StudentQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentQuizViewController.swift; sourceTree = "<group>"; };
+		FFEFD7D81BF0B9EA00A29A5B /* StudentQuizTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentQuizTableViewCell.swift; sourceTree = "<group>"; };
+		FFEFD7DA1BF0BBA800A29A5B /* StudentQuizQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentQuizQuestionViewController.swift; sourceTree = "<group>"; };
+		FFEFD7DD1BF0BE3C00A29A5B /* StudentClassResourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentClassResourceViewController.swift; sourceTree = "<group>"; };
+		FFEFD7DF1BF0BE4E00A29A5B /* StudentClassResourceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentClassResourceTableViewCell.swift; sourceTree = "<group>"; };
+		FFEFD7E11BF0BFB500A29A5B /* StudentViewClassResourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentViewClassResourceViewController.swift; sourceTree = "<group>"; };
+		FFEFD7E41BF0C0BA00A29A5B /* StudentEnrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentEnrollViewController.swift; sourceTree = "<group>"; };
+		FFEFD7E61BF0D83100A29A5B /* ChangePictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePictureViewController.swift; sourceTree = "<group>"; };
+		FFEFD7E81BF0DC4C00A29A5B /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		FFEFD7EA1BF0DED400A29A5B /* DeleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteViewController.swift; sourceTree = "<group>"; };
+		FFEFF8D81C2BAA640030D038 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../Desktop/data/balkaranProjects/3rd party/Alamofire-master-3/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		FFF0017B1BEC8459000B5C07 /* CreateClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateClassViewController.swift; sourceTree = "<group>"; };
+		FFF0017D1BEC88C2000B5C07 /* ClassNameAndDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassNameAndDetailViewController.swift; sourceTree = "<group>"; };
+		FFF001801BECB253000B5C07 /* LessonsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsViewController.swift; sourceTree = "<group>"; };
+		FFF001821BECB26A000B5C07 /* LessonsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsTableViewCell.swift; sourceTree = "<group>"; };
+		FFF0018A1BECBD1E000B5C07 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		FFF0018E1BECC14D000B5C07 /* CreateLessonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateLessonViewController.swift; sourceTree = "<group>"; };
+		FFF001901BECC9E6000B5C07 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		FFF001951BECCF5F000B5C07 /* ClassResourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassResourcesViewController.swift; sourceTree = "<group>"; };
+		FFF001971BECCF70000B5C07 /* ClassResourcesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassResourcesTableViewCell.swift; sourceTree = "<group>"; };
+		FFF001991BECD13A000B5C07 /* AddClassResourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AddClassResourcesViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FFF0019C1BECD406000B5C07 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		FFF0019E1BECD413000B5C07 /* QuizTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizTableViewCell.swift; sourceTree = "<group>"; };
+		FFF001A01BECDDB7000B5C07 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		FFF001A21BECE058000B5C07 /* QuizAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuizAdd.png; sourceTree = "<group>"; };
+		FFF001A41BECE184000B5C07 /* CreateQuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateQuizViewController.swift; sourceTree = "<group>"; };
+		FFF001A61BECF153000B5C07 /* QuizQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizQuestionViewController.swift; sourceTree = "<group>"; };
+		FFF001A81BECF74C000B5C07 /* menu1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu1.png; sourceTree = "<group>"; };
+		FFF001A91BECF74C000B5C07 /* menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu2.png; sourceTree = "<group>"; };
+		FFF001AA1BECF74C000B5C07 /* menu3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu3.png; sourceTree = "<group>"; };
+		FFF001AB1BECF74C000B5C07 /* menu4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu4.png; sourceTree = "<group>"; };
+		FFF001AC1BECF74C000B5C07 /* menu5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu5.png; sourceTree = "<group>"; };
+		FFF001AD1BECF74C000B5C07 /* menu6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu6.png; sourceTree = "<group>"; };
+		FFF291711C290E6400411EBD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		FFF59D4C1BFAF80800D374D8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		FFF59D4D1BFAF80800D374D8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		FFF59D541BFB019800D374D8 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		FFF911CD1C284E100041599F /* logoutClasses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoutClasses.png; sourceTree = "<group>"; };
+		FFFA5E271BF19A45005E9D1F /* GradeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeDetailViewController.swift; sourceTree = "<group>"; };
+		FFFA5E291BF1A3C7005E9D1F /* check-box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check-box.png"; sourceTree = "<group>"; };
+		FFFA5E2A1BF1A3C7005E9D1F /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck.png; sourceTree = "<group>"; };
+		FFFB10D21C31489A0083018F /* sounds-882-solemn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sounds-882-solemn.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFE6F6501BEB22F400F597B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE70E851C4D3F740031536C /* libsqlite3.0.tbd in Frameworks */,
+				FFA4B4921C4A27EB007EE23A /* AssetsLibrary.framework in Frameworks */,
+				FF23F85E1C2992B600F0725B /* QuartzCore.framework in Frameworks */,
+				FFF291721C290E6400411EBD /* CoreMedia.framework in Frameworks */,
+				FF982FE61C2511C600998735 /* CoreData.framework in Frameworks */,
+				FFEEA8151BF9A88000E8A444 /* MediaPlayer.framework in Frameworks */,
+				FFEEA8111BF9969900E8A444 /* AVKit.framework in Frameworks */,
+				FFEEA80F1BF9969400E8A444 /* AVFoundation.framework in Frameworks */,
+				67D949101443CD923DAA6031 /* Pods.framework in Frameworks */,
+				FFEFF8F81C2BAA8A0030D038 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A74218A454DB162A53E9B015 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E23D46C3DD5EF9B865A63F31 /* Pods.debug.xcconfig */,
+				CD20560ADECEBCF60DF37EB1 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF129DA71BFE002C00299ED5 /* Features Edit Class */ = {
+			isa = PBXGroup;
+			children = (
+				FF129DA81BFE005900299ED5 /* EditClassFeaturesViewController.swift */,
+			);
+			name = "Features Edit Class";
+			sourceTree = "<group>";
+		};
+		FF3999121BFB7138000266EF /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				FF3999131BFB714A000266EF /* TopicViewController.swift */,
+				FF24FF1A1BFC4F6800107D11 /* TopicTableViewCell.swift */,
+				FF3999151BFB7FDD000266EF /* ArtsViewController.swift */,
+				FF05BD421BFDC9F700B4C260 /* OtherViewController.swift */,
+			);
+			name = Topic;
+			sourceTree = "<group>";
+		};
+		FF5956A31BEE282A00257357 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FF5956A41BEE282A00257357 /* Assets */,
+				FF5956D61BEE282A00257357 /* Categories */,
+				FF5956DD1BEE282A00257357 /* iphone Popover */,
+				FF5956F71BEE282A00257357 /* RichTextEditor.h */,
+				FF5956F81BEE282A00257357 /* RichTextEditor.m */,
+				FF5956F91BEE282A00257357 /* RichTextEditorColorPickerViewController.h */,
+				FF5956FA1BEE282A00257357 /* RichTextEditorColorPickerViewController.m */,
+				FF5956FB1BEE282A00257357 /* RichTextEditorFontPickerViewController.h */,
+				FF5956FC1BEE282A00257357 /* RichTextEditorFontPickerViewController.m */,
+				FF5956FD1BEE282A00257357 /* RichTextEditorFontSizePickerViewController.h */,
+				FF5956FE1BEE282A00257357 /* RichTextEditorFontSizePickerViewController.m */,
+				FF5956FF1BEE282A00257357 /* RichTextEditorPopover.h */,
+				FF5957001BEE282A00257357 /* RichTextEditorToggleButton.h */,
+				FF5957011BEE282A00257357 /* RichTextEditorToggleButton.m */,
+				FF5957021BEE282A00257357 /* RichTextEditorToolbar.h */,
+				FF5957031BEE282A00257357 /* RichTextEditorToolbar.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FF5956A41BEE282A00257357 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FF5956A51BEE282A00257357 /* backcolor.png */,
+				FF5956A61BEE282A00257357 /* bold.png */,
+				FF5956A71BEE282A00257357 /* bold@2x.png */,
+				FF5956A81BEE282A00257357 /* bullist.png */,
+				FF5956A91BEE282A00257357 /* bullist@2x.png */,
+				FF5956AA1BEE282A00257357 /* buttons */,
+				FF5956B51BEE282A00257357 /* code.png */,
+				FF5956B61BEE282A00257357 /* colors.jpg */,
+				FF5956B71BEE282A00257357 /* email.png */,
+				FF5956B81BEE282A00257357 /* file.png */,
+				FF5956B91BEE282A00257357 /* firstLineIndent.png */,
+				FF5956BA1BEE282A00257357 /* firstLineIndent@2x.png */,
+				FF5956BB1BEE282A00257357 /* forecolor.png */,
+				FF5956BC1BEE282A00257357 /* image.png */,
+				FF5956BD1BEE282A00257357 /* indent.png */,
+				FF5956BE1BEE282A00257357 /* indent@2x.png */,
+				FF5956BF1BEE282A00257357 /* italic.png */,
+				FF5956C01BEE282A00257357 /* italic@2x.png */,
+				FF5956C11BEE282A00257357 /* justifycenter.png */,
+				FF5956C21BEE282A00257357 /* justifycenter@2x.png */,
+				FF5956C31BEE282A00257357 /* justifyfull.png */,
+				FF5956C41BEE282A00257357 /* justifyfull@2x.png */,
+				FF5956C51BEE282A00257357 /* justifyleft.png */,
+				FF5956C61BEE282A00257357 /* justifyleft@2x.png */,
+				FF5956C71BEE282A00257357 /* justifyright.png */,
+				FF5956C81BEE282A00257357 /* justifyright@2x.png */,
+				FF5956C91BEE282A00257357 /* link.png */,
+				FF5956CA1BEE282A00257357 /* numlist.png */,
+				FF5956CB1BEE282A00257357 /* numlist@2x.png */,
+				FF5956CC1BEE282A00257357 /* outdent.png */,
+				FF5956CD1BEE282A00257357 /* outdent@2x.png */,
+				FF5956CE1BEE282A00257357 /* redo.png */,
+				FF5956CF1BEE282A00257357 /* removeformat.png */,
+				FF5956D01BEE282A00257357 /* strikethrough.png */,
+				FF5956D11BEE282A00257357 /* strikethrough@2x.png */,
+				FF5956D21BEE282A00257357 /* underline.png */,
+				FF5956D31BEE282A00257357 /* underline@2x.png */,
+				FF5956D41BEE282A00257357 /* undo.png */,
+				FF5956D51BEE282A00257357 /* unlink.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FF5956AA1BEE282A00257357 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				FF5956AB1BEE282A00257357 /* button.png */,
+				FF5956AC1BEE282A00257357 /* buttoncenter.png */,
+				FF5956AD1BEE282A00257357 /* buttoncenterSelected.png */,
+				FF5956AE1BEE282A00257357 /* buttonleft.png */,
+				FF5956AF1BEE282A00257357 /* buttonleftSelected.png */,
+				FF5956B01BEE282A00257357 /* buttonright.png */,
+				FF5956B11BEE282A00257357 /* buttonrightSelected.png */,
+				FF5956B21BEE282A00257357 /* buttonSelected.png */,
+				FF5956B31BEE282A00257357 /* dropDownTriangle.png */,
+				FF5956B41BEE282A00257357 /* dropDownTriangle@2x.png */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		FF5956D61BEE282A00257357 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FF5956D71BEE282A00257357 /* NSAttributedString+RichTextEditor.h */,
+				FF5956D81BEE282A00257357 /* NSAttributedString+RichTextEditor.m */,
+				FF5956D91BEE282A00257357 /* UIFont+RichTextEditor.h */,
+				FF5956DA1BEE282A00257357 /* UIFont+RichTextEditor.m */,
+				FF5956DB1BEE282A00257357 /* UIView+RichTextEditor.h */,
+				FF5956DC1BEE282A00257357 /* UIView+RichTextEditor.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		FF5956DD1BEE282A00257357 /* iphone Popover */ = {
+			isa = PBXGroup;
+			children = (
+				FF5956DE1BEE282A00257357 /* Assets */,
+				FF5956EE1BEE282A00257357 /* UIBarButtonItem+WEPopover.h */,
+				FF5956EF1BEE282A00257357 /* UIBarButtonItem+WEPopover.m */,
+				FF5956F01BEE282A00257357 /* WEPopoverContainerView.h */,
+				FF5956F11BEE282A00257357 /* WEPopoverContainerView.m */,
+				FF5956F21BEE282A00257357 /* WEPopoverController.h */,
+				FF5956F31BEE282A00257357 /* WEPopoverController.m */,
+				FF5956F41BEE282A00257357 /* WEPopoverParentView.h */,
+				FF5956F51BEE282A00257357 /* WETouchableView.h */,
+				FF5956F61BEE282A00257357 /* WETouchableView.m */,
+			);
+			path = "iphone Popover";
+			sourceTree = "<group>";
+		};
+		FF5956DE1BEE282A00257357 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FF5956DF1BEE282A00257357 /* popoverArrowDown.png */,
+				FF5956E01BEE282A00257357 /* popoverArrowDown@2x.png */,
+				FF5956E11BEE282A00257357 /* popoverArrowDownSimple.png */,
+				FF5956E21BEE282A00257357 /* popoverArrowLeft.png */,
+				FF5956E31BEE282A00257357 /* popoverArrowLeft@2x.png */,
+				FF5956E41BEE282A00257357 /* popoverArrowLeftSimple.png */,
+				FF5956E51BEE282A00257357 /* popoverArrowRight.png */,
+				FF5956E61BEE282A00257357 /* popoverArrowRight@2x.png */,
+				FF5956E71BEE282A00257357 /* popoverArrowRightSimple.png */,
+				FF5956E81BEE282A00257357 /* popoverArrowUp.png */,
+				FF5956E91BEE282A00257357 /* popoverArrowUp@2x.png */,
+				FF5956EA1BEE282A00257357 /* popoverArrowUpSimple.png */,
+				FF5956EB1BEE282A00257357 /* popoverBg.png */,
+				FF5956EC1BEE282A00257357 /* popoverBg@2x.png */,
+				FF5956ED1BEE282A00257357 /* popoverBgSimple.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FF6935471C04BC5500744AE3 /* Add Class Schedule Further */ = {
+			isa = PBXGroup;
+			children = (
+				FF6935481C04BC9200744AE3 /* ScheduleSelectDayViewController.swift */,
+				FF03770B1C05735D00B093C2 /* ScheduleDescriptionViewController.swift */,
+			);
+			name = "Add Class Schedule Further";
+			sourceTree = "<group>";
+		};
+		FF7D00AD1BFB6776008E2805 /* ClassType */ = {
+			isa = PBXGroup;
+			children = (
+				FF7D00AF1BFB67A6008E2805 /* ClassTypeViewController.swift */,
+			);
+			name = ClassType;
+			sourceTree = "<group>";
+		};
+		FFAD02A21C56384D0077A8BF /* LPRTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FFAD02971C55F2970077A8BF /* LPRTableView.swift */,
+			);
+			name = LPRTableView;
+			sourceTree = "<group>";
+		};
+		FFC406A61C05B3EB00A6E054 /* Add Curriculum */ = {
+			isa = PBXGroup;
+			children = (
+				FFC406AB1C05B5A700A6E054 /* AddCurriculumViewController.swift */,
+				FFC406AE1C05DC1B00A6E054 /* AddCurriculumLibraryViewController.swift */,
+				FFC406B01C05E1FA00A6E054 /* AddCuuriculumGradeViewController.swift */,
+				FFC4DEAC1C05EF290033028D /* AddCurriculumCountryViewController.swift */,
+			);
+			name = "Add Curriculum";
+			sourceTree = "<group>";
+		};
+		FFC406A71C05B43A00A6E054 /* Add Syllabus */ = {
+			isa = PBXGroup;
+			children = (
+				FFEFD7C31BF0983400A29A5B /* SyllabusViewController.swift */,
+			);
+			name = "Add Syllabus";
+			sourceTree = "<group>";
+		};
+		FFC406A81C05B47B00A6E054 /* Add Class Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				FFE5ACF81C06C21E004576C0 /* AllScheduleListViewController.swift */,
+				FFE5ACFA1C06EF12004576C0 /* AllScheduleDataTableViewCell.swift */,
+				FF6935471C04BC5500744AE3 /* Add Class Schedule Further */,
+				FFEE3BFC1BEDC429009F238E /* AddClassScheduledViewController.swift */,
+			);
+			name = "Add Class Schedule";
+			sourceTree = "<group>";
+		};
+		FFC406A91C05B4D200A6E054 /* Class listing */ = {
+			isa = PBXGroup;
+			children = (
+				FFC406AA1C05B50400A6E054 /* CLass Listing To Further */,
+				FFE6F69A1BEBA1DB00F597B5 /* ClassListingViewController.swift */,
+				FFE6F69C1BEBA59600F597B5 /* ClassListingTableViewCell.swift */,
+			);
+			name = "Class listing";
+			sourceTree = "<group>";
+		};
+		FFC406AA1C05B50400A6E054 /* CLass Listing To Further */ = {
+			isa = PBXGroup;
+			children = (
+				FFF0017D1BEC88C2000B5C07 /* ClassNameAndDetailViewController.swift */,
+				FFEE3BFA1BEDB933009F238E /* EditClassViewController.swift */,
+				FF129DA71BFE002C00299ED5 /* Features Edit Class */,
+				FFEFD7E61BF0D83100A29A5B /* ChangePictureViewController.swift */,
+				FFEFD7EA1BF0DED400A29A5B /* DeleteViewController.swift */,
+			);
+			name = "CLass Listing To Further";
+			sourceTree = "<group>";
+		};
+		FFE6F64A1BEB22F400F597B5 = {
+			isa = PBXGroup;
+			children = (
+				FFE70E701C4D3EE50031536C /* Squlite */,
+				FFF59D481BFAF73B00D374D8 /* 3rd party */,
+				FFEEA80D1BF9966400E8A444 /* Frameworks */,
+				FFE6F6561BEB22F400F597B5 /* AppDelegate.swift */,
+				FF1AE6841BFC96FB004F0612 /* TeacherStudentViewController.swift */,
+				FF1AE67A1BFC86F6004F0612 /* SchoolsViewController.swift */,
+				FF1AE67C1BFC871F004F0612 /* SchoolTableViewCell.swift */,
+				FFE6F6581BEB22F400F597B5 /* LoginViewController.swift */,
+				FFE6F65D1BEB22F400F597B5 /* DigitalLearningTree.xcdatamodeld */,
+				FFE6F6871BEB256800F597B5 /* Images */,
+				FFE6F6881BEB257200F597B5 /* StoryBoard */,
+				FFEFD7C91BF0A72E00A29A5B /* Teacher Part */,
+				FFEFD7CA1BF0A77F00A29A5B /* Student Part */,
+				FFE6F6891BEB258D00F597B5 /* Resources */,
+				FFE6F66D1BEB22F400F597B5 /* DigitalLearningTreeTests */,
+				FFE6F6781BEB22F400F597B5 /* DigitalLearningTreeUITests */,
+				FFE6F6541BEB22F400F597B5 /* Products */,
+				A74218A454DB162A53E9B015 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FFE6F6541BEB22F400F597B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6F6531BEB22F400F597B5 /* DigitalLearningTree.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE6F6551BEB22F400F597B5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FFF0017B1BEC8459000B5C07 /* CreateClassViewController.swift */,
+				FF05BD441BFDD6B800B4C260 /* CreateClassDescriptionViewController.swift */,
+				FFC406A91C05B4D200A6E054 /* Class listing */,
+				FFC406A81C05B47B00A6E054 /* Add Class Schedule */,
+				FFC406A71C05B43A00A6E054 /* Add Syllabus */,
+				FFC406A61C05B3EB00A6E054 /* Add Curriculum */,
+				FF3999121BFB7138000266EF /* Topic */,
+				FF7D00AD1BFB6776008E2805 /* ClassType */,
+			);
+			name = Classes;
+			path = DigitalLearningTree;
+			sourceTree = "<group>";
+		};
+		FFE6F66D1BEB22F400F597B5 /* DigitalLearningTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6F66E1BEB22F400F597B5 /* DigitalLearningTreeTests.swift */,
+				FFE6F6701BEB22F400F597B5 /* Info.plist */,
+			);
+			path = DigitalLearningTreeTests;
+			sourceTree = "<group>";
+		};
+		FFE6F6781BEB22F400F597B5 /* DigitalLearningTreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6F6791BEB22F400F597B5 /* DigitalLearningTreeUITests.swift */,
+				FFE6F67B1BEB22F400F597B5 /* Info.plist */,
+			);
+			path = DigitalLearningTreeUITests;
+			sourceTree = "<group>";
+		};
+		FFE6F6871BEB256800F597B5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FF79B1231C5298010029B7CE /* images (1).png */,
+				FF820C461C4E7F4800D8E16C /* user_placeholder.png */,
+				FFE70E601C4CC0120031536C /* defaultThumbnail_overlay.png */,
+				FFE42CA71C451C090099CE7E /* tap-here.png */,
+				FFF911CD1C284E100041599F /* logoutClasses.png */,
+				FFEF05761C1AABF300DF95E8 /* left_arrow.png */,
+				FFEF05771C1AABF300DF95E8 /* right_arrow.png */,
+				FFB8CDBD1C18734400749BF2 /* no-icon.png */,
+				FF4144CA1C0458F500C00595 /* 1.png */,
+				FF4144CC1C04592700C00595 /* 2.png */,
+				FF4144C21C044F9800C00595 /* grade.png */,
+				FFC951021BFF45E600C1252B /* logout.png */,
+				FF1AE6821BFC944E004F0612 /* bg.png */,
+				FF5E31D51BFCAF5E005AA58F /* logo.png */,
+				FF1AE6801BFC9216004F0612 /* Splash-Screen3.png */,
+				FF5569DA1BFA2C2D0083F512 /* back-btn copy.png */,
+				FF9DDF1B1BF614D6005D05F6 /* edit-gren.png */,
+				FF9B5DBA1BF5E578002E5B7E /* delete-clor.png */,
+				FFA534F01BF1DD43001D0D0D /* arroe-white.png */,
+				FFA534F11BF1DD43001D0D0D /* arrow-black.png */,
+				FFA534F21BF1DD43001D0D0D /* check-edit-sel.png */,
+				FFA534F31BF1DD43001D0D0D /* check-edit.png */,
+				FFA534F51BF1DD43001D0D0D /* edit-green.png */,
+				FFFA5E291BF1A3C7005E9D1F /* check-box.png */,
+				FFFA5E2A1BF1A3C7005E9D1F /* uncheck.png */,
+				FF94CA821BF10310004079E5 /* delete.png */,
+				FF94CA801BF0EBD3004079E5 /* arrow.png */,
+				FFEFD7E81BF0DC4C00A29A5B /* image.jpg */,
+				FFF001A81BECF74C000B5C07 /* menu1.png */,
+				FFF001A91BECF74C000B5C07 /* menu2.png */,
+				FFF001AA1BECF74C000B5C07 /* menu3.png */,
+				FFF001AB1BECF74C000B5C07 /* menu4.png */,
+				FFF001AC1BECF74C000B5C07 /* menu5.png */,
+				FFF001AD1BECF74C000B5C07 /* menu6.png */,
+				FFE6F6901BEB823000F597B5 /* check.png */,
+				FFE6F6911BEB823000F597B5 /* pass.png */,
+				FFE6F6921BEB823000F597B5 /* un-check.png */,
+				FFE6F6931BEB823000F597B5 /* user.png */,
+				FFF0018A1BECBD1E000B5C07 /* menu.png */,
+				FFF001901BECC9E6000B5C07 /* refresh.png */,
+				FFF001A01BECDDB7000B5C07 /* add.png */,
+				FFF001A21BECE058000B5C07 /* QuizAdd.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		FFE6F6881BEB257200F597B5 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6F65A1BEB22F400F597B5 /* Main.storyboard */,
+				FFEFD7C71BF0A71C00A29A5B /* Student.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		FFE6F6891BEB258D00F597B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6F6601BEB22F400F597B5 /* Assets.xcassets */,
+				FFFB10D21C31489A0083018F /* sounds-882-solemn.mp3 */,
+				FFE6F6621BEB22F400F597B5 /* LaunchScreen.storyboard */,
+				FFE6F6651BEB22F400F597B5 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FFE70E701C4D3EE50031536C /* Squlite */ = {
+			isa = PBXGroup;
+			children = (
+				FFE70E861C4D445B0031536C /* DigitalLearnngtree.sqlite */,
+				FFE70E881C4D457D0031536C /* GetFilePath.swift */,
+				FFE70E8C1C4D4B8D0031536C /* ModelManager.swift */,
+				FFE70E8A1C4D47990031536C /* LessonsTable.swift */,
+				FFA355F01C50FA6D003171EA /* ResourceTable.swift */,
+				FFAD029F1C55F71D0077A8BF /* ClassTable.swift */,
+				FFE70E711C4D3EF50031536C /* fmdb */,
+			);
+			name = Squlite;
+			sourceTree = "<group>";
+		};
+		FFE70E711C4D3EF50031536C /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				FFE70E721C4D3EF50031536C /* FMDatabase.h */,
+				FFE70E731C4D3EF50031536C /* FMDatabase.m */,
+				FFE70E741C4D3EF50031536C /* FMDatabaseAdditions.h */,
+				FFE70E751C4D3EF50031536C /* FMDatabaseAdditions.m */,
+				FFE70E761C4D3EF50031536C /* FMDatabasePool.h */,
+				FFE70E771C4D3EF50031536C /* FMDatabasePool.m */,
+				FFE70E781C4D3EF50031536C /* FMDatabaseQueue.h */,
+				FFE70E791C4D3EF50031536C /* FMDatabaseQueue.m */,
+				FFE70E7A1C4D3EF50031536C /* FMDB.h */,
+				FFE70E7B1C4D3EF50031536C /* FMResultSet.h */,
+				FFE70E7C1C4D3EF50031536C /* FMResultSet.m */,
+				FFE70E7D1C4D3EF50031536C /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		FFEE3BFE1BEDD0CE009F238E /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				FFEE3BFF1BEDD108009F238E /* StudentViewController.swift */,
+				FFEE3C011BEDD117009F238E /* StudentTableViewCell.swift */,
+				FFEE3C031BEDD743009F238E /* AddStudentViewController.swift */,
+				FFA4B4DD1C1B1C3900A00C39 /* StudentDetailViewController.swift */,
+			);
+			name = Student;
+			sourceTree = "<group>";
+		};
+		FFEE3C051BEDDC05009F238E /* Grade */ = {
+			isa = PBXGroup;
+			children = (
+				FFEE3C061BEDDEAA009F238E /* GradeViewController.swift */,
+				FFEE71F61C30F6AE000CD43B /* GradeTableViewCell.swift */,
+				FF1253F81C198D5900ED1D43 /* StudentGradeViewController.swift */,
+				FFEE71F81C30F8A6000CD43B /* StudentGradeTableViewCell.swift */,
+				FFFA5E271BF19A45005E9D1F /* GradeDetailViewController.swift */,
+				FF29175B1C1F0C6700A2FD4E /* GradeQuizListTableViewCell.swift */,
+			);
+			name = Grade;
+			sourceTree = "<group>";
+		};
+		FFEEA80D1BF9966400E8A444 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFE70E841C4D3F740031536C /* libsqlite3.0.tbd */,
+				FFA4B4911C4A27EB007EE23A /* AssetsLibrary.framework */,
+				FF23F85D1C2992B600F0725B /* QuartzCore.framework */,
+				FFF291711C290E6400411EBD /* CoreMedia.framework */,
+				FF982FE51C2511C600998735 /* CoreData.framework */,
+				FFEEA8141BF9A88000E8A444 /* MediaPlayer.framework */,
+				FFEEA8101BF9969900E8A444 /* AVKit.framework */,
+				FFEEA80E1BF9969400E8A444 /* AVFoundation.framework */,
+				17B8F6C426B83A9ABB2C38B9 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFEF828A1C184418007DED34 /* Alamofire Multiform */ = {
+			isa = PBXGroup;
+			children = (
+				FFEFF8D81C2BAA640030D038 /* Alamofire.xcodeproj */,
+			);
+			name = "Alamofire Multiform";
+			sourceTree = "<group>";
+		};
+		FFEFD7C91BF0A72E00A29A5B /* Teacher Part */ = {
+			isa = PBXGroup;
+			children = (
+				FFE6F6551BEB22F400F597B5 /* Classes */,
+				FFF0017F1BECB21B000B5C07 /* Lessons */,
+				FFF001941BECCE17000B5C07 /* ClassResources */,
+				FFF0019B1BECD3F2000B5C07 /* Quiz */,
+				FFEE3BFE1BEDD0CE009F238E /* Student */,
+				FFEE3C051BEDDC05009F238E /* Grade */,
+			);
+			name = "Teacher Part";
+			sourceTree = "<group>";
+		};
+		FFEFD7CA1BF0A77F00A29A5B /* Student Part */ = {
+			isa = PBXGroup;
+			children = (
+				FFE42CAF1C451CEF0099CE7E /* ProfileViewController.swift */,
+				FFEFD7E31BF0C09100A29A5B /* Student Enroll */,
+				FFEFD7DC1BF0BE1E00A29A5B /* Student  Class Resource */,
+				FFEFD7D51BF0B9AB00A29A5B /* Student Quiz */,
+				FFEFD7D01BF0B78B00A29A5B /* Student Lesson */,
+				FFEFD7CB1BF0A92F00A29A5B /* Student Class */,
+			);
+			name = "Student Part";
+			sourceTree = "<group>";
+		};
+		FFEFD7CB1BF0A92F00A29A5B /* Student Class */ = {
+			isa = PBXGroup;
+			children = (
+				FFEFD7CC1BF0A94700A29A5B /* StudentClassViewController.swift */,
+				FFEFD7CE1BF0B33900A29A5B /* StudentClassTableViewCell.swift */,
+				FFA5740C1C4E167200D00447 /* StudentClassDescViewController.swift */,
+			);
+			name = "Student Class";
+			sourceTree = "<group>";
+		};
+		FFEFD7D01BF0B78B00A29A5B /* Student Lesson */ = {
+			isa = PBXGroup;
+			children = (
+				FFEFD7D11BF0B7B100A29A5B /* StudentLessonViewController.swift */,
+				FFEFD7D31BF0B83E00A29A5B /* StudentLessonTableViewCell.swift */,
+			);
+			name = "Student Lesson";
+			sourceTree = "<group>";
+		};
+		FFEFD7D51BF0B9AB00A29A5B /* Student Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				FFEFD7D61BF0B9CB00A29A5B /* StudentQuizViewController.swift */,
+				FFEFD7D81BF0B9EA00A29A5B /* StudentQuizTableViewCell.swift */,
+				FFEFD7DA1BF0BBA800A29A5B /* StudentQuizQuestionViewController.swift */,
+				FFA0E3581C23E1D50046039F /* StudentQuizResultViewController.swift */,
+			);
+			name = "Student Quiz";
+			sourceTree = "<group>";
+		};
+		FFEFD7DC1BF0BE1E00A29A5B /* Student  Class Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FFEFD7DD1BF0BE3C00A29A5B /* StudentClassResourceViewController.swift */,
+				FFEFD7DF1BF0BE4E00A29A5B /* StudentClassResourceTableViewCell.swift */,
+				FFEFD7E11BF0BFB500A29A5B /* StudentViewClassResourceViewController.swift */,
+			);
+			name = "Student  Class Resource";
+			sourceTree = "<group>";
+		};
+		FFEFD7E31BF0C09100A29A5B /* Student Enroll */ = {
+			isa = PBXGroup;
+			children = (
+				FFEFD7E41BF0C0BA00A29A5B /* StudentEnrollViewController.swift */,
+			);
+			name = "Student Enroll";
+			sourceTree = "<group>";
+		};
+		FFEFF8D91C2BAA640030D038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFEFF8E31C2BAA640030D038 /* Alamofire.framework */,
+				FFEFF8E51C2BAA640030D038 /* Alamofire iOS Tests.xctest */,
+				FFEFF8E71C2BAA640030D038 /* Alamofire.framework */,
+				FFEFF8E91C2BAA640030D038 /* Alamofire OSX Tests.xctest */,
+				FFEFF8EB1C2BAA640030D038 /* Alamofire.framework */,
+				FFEFF8ED1C2BAA640030D038 /* Alamofire tvOS Tests.xctest */,
+				FFEFF8EF1C2BAA640030D038 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF0017F1BECB21B000B5C07 /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				FFF001801BECB253000B5C07 /* LessonsViewController.swift */,
+				FFF001821BECB26A000B5C07 /* LessonsTableViewCell.swift */,
+				FFF0018E1BECC14D000B5C07 /* CreateLessonViewController.swift */,
+				FF44B0381BF5B5CB00938099 /* LessonDetailViewController.swift */,
+			);
+			name = Lessons;
+			sourceTree = "<group>";
+		};
+		FFF001941BECCE17000B5C07 /* ClassResources */ = {
+			isa = PBXGroup;
+			children = (
+				FFF001951BECCF5F000B5C07 /* ClassResourcesViewController.swift */,
+				FFF001971BECCF70000B5C07 /* ClassResourcesTableViewCell.swift */,
+				FFF001991BECD13A000B5C07 /* AddClassResourcesViewController.swift */,
+				FFEFD7C51BF09B8200A29A5B /* ViewClassResourceViewController.swift */,
+			);
+			name = ClassResources;
+			sourceTree = "<group>";
+		};
+		FFF0019B1BECD3F2000B5C07 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				FFF0019C1BECD406000B5C07 /* QuizViewController.swift */,
+				FFF0019E1BECD413000B5C07 /* QuizTableViewCell.swift */,
+				FFF001A61BECF153000B5C07 /* QuizQuestionViewController.swift */,
+				FFF001A41BECE184000B5C07 /* CreateQuizViewController.swift */,
+				FFE1AB4C1C0F2D9D007EAD63 /* CreateQuizLessonViewController.swift */,
+				FFEA7F051C1008840042C532 /* QuizLessonDescriptionViewController.swift */,
+				FF3D720B1C32DC3E00537080 /* MultipleQuizQuestionViewController.swift */,
+			);
+			name = Quiz;
+			sourceTree = "<group>";
+		};
+		FFF59D451BFAF6F100D374D8 /* ReachAbility */ = {
+			isa = PBXGroup;
+			children = (
+				FFF59D541BFB019800D374D8 /* Reachability.swift */,
+			);
+			name = ReachAbility;
+			sourceTree = "<group>";
+		};
+		FFF59D481BFAF73B00D374D8 /* 3rd party */ = {
+			isa = PBXGroup;
+			children = (
+				FFAD02A21C56384D0077A8BF /* LPRTableView */,
+				FFEF828A1C184418007DED34 /* Alamofire Multiform */,
+				FFF59D4F1BFAF81F00D374D8 /* MBProgressHUD */,
+				FF5956A31BEE282A00257357 /* Source */,
+				FFF59D451BFAF6F100D374D8 /* ReachAbility */,
+				FFA4B4901C4A253A007EE23A /* DLT-Bridging-Header.h */,
+			);
+			name = "3rd party";
+			sourceTree = "<group>";
+		};
+		FFF59D4F1BFAF81F00D374D8 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FFF59D4C1BFAF80800D374D8 /* MBProgressHUD.h */,
+				FFF59D4D1BFAF80800D374D8 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFE6F6521BEB22F400F597B5 /* DigitalLearningTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE6F67E1BEB22F400F597B5 /* Build configuration list for PBXNativeTarget "DigitalLearningTree" */;
+			buildPhases = (
+				1307A86CBEF06861470C0C63 /* Check Pods Manifest.lock */,
+				FFE6F64F1BEB22F400F597B5 /* Sources */,
+				FFE6F6501BEB22F400F597B5 /* Frameworks */,
+				FFE6F6511BEB22F400F597B5 /* Resources */,
+				FFEF82B71C184680007DED34 /* Embed Frameworks */,
+				FF89580D1C242F9F009862FC /* Embed PlugIns */,
+				667299693353A1F38710EF2D /* Embed Pods Frameworks */,
+				A1451DDB2819B0B47A959073 /* Copy Pods Resources */,
+				FF4A6EFB1C47AD3C00AC098A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFEFF8FB1C2BAA8A0030D038 /* PBXTargetDependency */,
+			);
+			name = DigitalLearningTree;
+			productName = DigitalLearningTree;
+			productReference = FFE6F6531BEB22F400F597B5 /* DigitalLearningTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFE6F64B1BEB22F400F597B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "mrinal khullar";
+				TargetAttributes = {
+					FFE6F6521BEB22F400F597B5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = KZ2Y4TY65J;
+					};
+				};
+			};
+			buildConfigurationList = FFE6F64E1BEB22F400F597B5 /* Build configuration list for PBXProject "DigitalLearningTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFE6F64A1BEB22F400F597B5;
+			productRefGroup = FFE6F6541BEB22F400F597B5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FFEFF8D91C2BAA640030D038 /* Products */;
+					ProjectRef = FFEFF8D81C2BAA640030D038 /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FFE6F6521BEB22F400F597B5 /* DigitalLearningTree */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FFEFF8E31C2BAA640030D038 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = FFEFF8E21C2BAA640030D038 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FFEFF8E51C2BAA640030D038 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = FFEFF8E41C2BAA640030D038 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FFEFF8E71C2BAA640030D038 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = FFEFF8E61C2BAA640030D038 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FFEFF8E91C2BAA640030D038 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = FFEFF8E81C2BAA640030D038 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FFEFF8EB1C2BAA640030D038 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = FFEFF8EA1C2BAA640030D038 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FFEFF8ED1C2BAA640030D038 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = FFEFF8EC1C2BAA640030D038 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FFEFF8EF1C2BAA640030D038 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = FFEFF8EE1C2BAA640030D038 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFE6F6511BEB22F400F597B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5957451BEE282A00257357 /* popoverBgSimple.png in Resources */,
+				FFB8CDBE1C18734400749BF2 /* no-icon.png in Resources */,
+				FF5957421BEE282A00257357 /* popoverArrowUpSimple.png in Resources */,
+				FF59572E1BEE282A00257357 /* strikethrough.png in Resources */,
+				FF94CA831BF10310004079E5 /* delete.png in Resources */,
+				FF5957431BEE282A00257357 /* popoverBg.png in Resources */,
+				FFEFD7C81BF0A71C00A29A5B /* Student.storyboard in Resources */,
+				FFF001911BECC9E6000B5C07 /* refresh.png in Resources */,
+				FF59570B1BEE282A00257357 /* buttoncenterSelected.png in Resources */,
+				FFF911CE1C284E100041599F /* logoutClasses.png in Resources */,
+				FFEFD7E91BF0DC4C00A29A5B /* image.jpg in Resources */,
+				FF5957131BEE282A00257357 /* code.png in Resources */,
+				FF5957391BEE282A00257357 /* popoverArrowDownSimple.png in Resources */,
+				FFFB10D31C31489A0083018F /* sounds-882-solemn.mp3 in Resources */,
+				FF59572F1BEE282A00257357 /* strikethrough@2x.png in Resources */,
+				FF59573F1BEE282A00257357 /* popoverArrowRightSimple.png in Resources */,
+				FF5957181BEE282A00257357 /* firstLineIndent@2x.png in Resources */,
+				FFF001B21BECF74C000B5C07 /* menu5.png in Resources */,
+				FF5957311BEE282A00257357 /* underline@2x.png in Resources */,
+				FF9DDF1C1BF614D6005D05F6 /* edit-gren.png in Resources */,
+				FFE70E831C4D3EF50031536C /* Info.plist in Resources */,
+				FF59571D1BEE282A00257357 /* italic.png in Resources */,
+				FF5957151BEE282A00257357 /* email.png in Resources */,
+				FF5957081BEE282A00257357 /* bullist@2x.png in Resources */,
+				FFE6F6641BEB22F400F597B5 /* LaunchScreen.storyboard in Resources */,
+				FF59572B1BEE282A00257357 /* outdent@2x.png in Resources */,
+				FF5957171BEE282A00257357 /* firstLineIndent.png in Resources */,
+				FFF001AF1BECF74C000B5C07 /* menu2.png in Resources */,
+				FF59570A1BEE282A00257357 /* buttoncenter.png in Resources */,
+				FF4144CD1C04592700C00595 /* 2.png in Resources */,
+				FFF001B01BECF74C000B5C07 /* menu3.png in Resources */,
+				FF59570D1BEE282A00257357 /* buttonleftSelected.png in Resources */,
+				FF59573B1BEE282A00257357 /* popoverArrowLeft@2x.png in Resources */,
+				FF5957121BEE282A00257357 /* dropDownTriangle@2x.png in Resources */,
+				FFF0018B1BECBD1E000B5C07 /* menu.png in Resources */,
+				FFE6F6951BEB823000F597B5 /* pass.png in Resources */,
+				FF5569DB1BFA2C2D0083F512 /* back-btn copy.png in Resources */,
+				FF59570E1BEE282A00257357 /* buttonright.png in Resources */,
+				FF59571A1BEE282A00257357 /* image.png in Resources */,
+				FF59571B1BEE282A00257357 /* indent.png in Resources */,
+				FF59570F1BEE282A00257357 /* buttonrightSelected.png in Resources */,
+				FF820C471C4E7F4800D8E16C /* user_placeholder.png in Resources */,
+				FF5957191BEE282A00257357 /* forecolor.png in Resources */,
+				FFA534FB1BF1DD43001D0D0D /* edit-green.png in Resources */,
+				FFE6F6941BEB823000F597B5 /* check.png in Resources */,
+				FFE70E871C4D445B0031536C /* DigitalLearnngtree.sqlite in Resources */,
+				FF5957441BEE282A00257357 /* popoverBg@2x.png in Resources */,
+				FF59570C1BEE282A00257357 /* buttonleft.png in Resources */,
+				FF5957271BEE282A00257357 /* link.png in Resources */,
+				FFEF05791C1AABF300DF95E8 /* right_arrow.png in Resources */,
+				FFA534F81BF1DD43001D0D0D /* check-edit-sel.png in Resources */,
+				FFF001AE1BECF74C000B5C07 /* menu1.png in Resources */,
+				FF4144C51C044F9900C00595 /* grade.png in Resources */,
+				FF59571C1BEE282A00257357 /* indent@2x.png in Resources */,
+				FF5957091BEE282A00257357 /* button.png in Resources */,
+				FF5E31D61BFCAF5E005AA58F /* logo.png in Resources */,
+				FFF001B11BECF74C000B5C07 /* menu4.png in Resources */,
+				FFA534F61BF1DD43001D0D0D /* arroe-white.png in Resources */,
+				FF5957141BEE282A00257357 /* colors.jpg in Resources */,
+				FFF001B31BECF74C000B5C07 /* menu6.png in Resources */,
+				FF5957371BEE282A00257357 /* popoverArrowDown.png in Resources */,
+				FF5957261BEE282A00257357 /* justifyright@2x.png in Resources */,
+				FFE42CA81C451C0A0099CE7E /* tap-here.png in Resources */,
+				FF4144CB1C0458F500C00595 /* 1.png in Resources */,
+				FF5957211BEE282A00257357 /* justifyfull.png in Resources */,
+				FF59573C1BEE282A00257357 /* popoverArrowLeftSimple.png in Resources */,
+				FFE6F6961BEB823000F597B5 /* un-check.png in Resources */,
+				FF5957321BEE282A00257357 /* undo.png in Resources */,
+				FF5957101BEE282A00257357 /* buttonSelected.png in Resources */,
+				FF5957231BEE282A00257357 /* justifyleft.png in Resources */,
+				FFE6F6971BEB823000F597B5 /* user.png in Resources */,
+				FF1AE6831BFC944E004F0612 /* bg.png in Resources */,
+				FF5957251BEE282A00257357 /* justifyright.png in Resources */,
+				FFC951031BFF45E600C1252B /* logout.png in Resources */,
+				FFE70E611C4CC0120031536C /* defaultThumbnail_overlay.png in Resources */,
+				FF59573E1BEE282A00257357 /* popoverArrowRight@2x.png in Resources */,
+				FF59572A1BEE282A00257357 /* outdent.png in Resources */,
+				FF59573D1BEE282A00257357 /* popoverArrowRight.png in Resources */,
+				FF59572C1BEE282A00257357 /* redo.png in Resources */,
+				FF79B1241C5298010029B7CE /* images (1).png in Resources */,
+				FF5957241BEE282A00257357 /* justifyleft@2x.png in Resources */,
+				FF59571F1BEE282A00257357 /* justifycenter.png in Resources */,
+				FFFA5E2C1BF1A3C7005E9D1F /* uncheck.png in Resources */,
+				FF9B5DBB1BF5E578002E5B7E /* delete-clor.png in Resources */,
+				FF5957381BEE282A00257357 /* popoverArrowDown@2x.png in Resources */,
+				FF5957061BEE282A00257357 /* bold@2x.png in Resources */,
+				FF5957291BEE282A00257357 /* numlist@2x.png in Resources */,
+				FF59571E1BEE282A00257357 /* italic@2x.png in Resources */,
+				FFE6F6611BEB22F400F597B5 /* Assets.xcassets in Resources */,
+				FFE6F65C1BEB22F400F597B5 /* Main.storyboard in Resources */,
+				FF5957201BEE282A00257357 /* justifycenter@2x.png in Resources */,
+				FF5957051BEE282A00257357 /* bold.png in Resources */,
+				FFF001A31BECE058000B5C07 /* QuizAdd.png in Resources */,
+				FF5957331BEE282A00257357 /* unlink.png in Resources */,
+				FF1AE6811BFC9216004F0612 /* Splash-Screen3.png in Resources */,
+				FF59572D1BEE282A00257357 /* removeformat.png in Resources */,
+				FF5957071BEE282A00257357 /* bullist.png in Resources */,
+				FF59573A1BEE282A00257357 /* popoverArrowLeft.png in Resources */,
+				FFA534F91BF1DD43001D0D0D /* check-edit.png in Resources */,
+				FF5957411BEE282A00257357 /* popoverArrowUp@2x.png in Resources */,
+				FFEF05781C1AABF300DF95E8 /* left_arrow.png in Resources */,
+				FF94CA811BF0EBD3004079E5 /* arrow.png in Resources */,
+				FFA534F71BF1DD43001D0D0D /* arrow-black.png in Resources */,
+				FF5957041BEE282A00257357 /* backcolor.png in Resources */,
+				FFFA5E2B1BF1A3C7005E9D1F /* check-box.png in Resources */,
+				FF5957281BEE282A00257357 /* numlist.png in Resources */,
+				FF5957401BEE282A00257357 /* popoverArrowUp.png in Resources */,
+				FF5957111BEE282A00257357 /* dropDownTriangle.png in Resources */,
+				FF5957301BEE282A00257357 /* underline.png in Resources */,
+				FFF001A11BECDDB7000B5C07 /* add.png in Resources */,
+				FF5957221BEE282A00257357 /* justifyfull@2x.png in Resources */,
+				FF5957161BEE282A00257357 /* file.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1307A86CBEF06861470C0C63 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		667299693353A1F38710EF2D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1451DDB2819B0B47A959073 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF4A6EFB1C47AD3C00AC098A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFE6F64F1BEB22F400F597B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE70E8B1C4D47990031536C /* LessonsTable.swift in Sources */,
+				FF5957351BEE282A00257357 /* UIFont+RichTextEditor.m in Sources */,
+				FFEE3C001BEDD108009F238E /* StudentViewController.swift in Sources */,
+				FF1253F91C198D5900ED1D43 /* StudentGradeViewController.swift in Sources */,
+				FFE1AB4D1C0F2D9D007EAD63 /* CreateQuizLessonViewController.swift in Sources */,
+				FFE6F69B1BEBA1DB00F597B5 /* ClassListingViewController.swift in Sources */,
+				FFC4DEAD1C05EF290033028D /* AddCurriculumCountryViewController.swift in Sources */,
+				FFF0019D1BECD406000B5C07 /* QuizViewController.swift in Sources */,
+				FFF001831BECB26A000B5C07 /* LessonsTableViewCell.swift in Sources */,
+				FFEFD7DE1BF0BE3C00A29A5B /* StudentClassResourceViewController.swift in Sources */,
+				FFEFD7E21BF0BFB500A29A5B /* StudentViewClassResourceViewController.swift in Sources */,
+				FF59574C1BEE282A00257357 /* RichTextEditorFontPickerViewController.m in Sources */,
+				FFEFD7D21BF0B7B100A29A5B /* StudentLessonViewController.swift in Sources */,
+				FFEE3C071BEDDEAA009F238E /* GradeViewController.swift in Sources */,
+				FFE70E811C4D3EF50031536C /* FMDatabaseQueue.m in Sources */,
+				FFEFD7D91BF0B9EA00A29A5B /* StudentQuizTableViewCell.swift in Sources */,
+				FFEFD7E01BF0BE4E00A29A5B /* StudentClassResourceTableViewCell.swift in Sources */,
+				FFE6F6591BEB22F400F597B5 /* LoginViewController.swift in Sources */,
+				FF1AE67B1BFC86F6004F0612 /* SchoolsViewController.swift in Sources */,
+				FFF59D551BFB019800D374D8 /* Reachability.swift in Sources */,
+				FFC406AF1C05DC1B00A6E054 /* AddCurriculumLibraryViewController.swift in Sources */,
+				FFE6F6571BEB22F400F597B5 /* AppDelegate.swift in Sources */,
+				FFA5740D1C4E167200D00447 /* StudentClassDescViewController.swift in Sources */,
+				FF1AE6851BFC96FB004F0612 /* TeacherStudentViewController.swift in Sources */,
+				FFF001A51BECE184000B5C07 /* CreateQuizViewController.swift in Sources */,
+				FFEFD7C61BF09B8200A29A5B /* ViewClassResourceViewController.swift in Sources */,
+				FFF001981BECCF70000B5C07 /* ClassResourcesTableViewCell.swift in Sources */,
+				FFE6F69D1BEBA59600F597B5 /* ClassListingTableViewCell.swift in Sources */,
+				FFF001961BECCF5F000B5C07 /* ClassResourcesViewController.swift in Sources */,
+				FF5957341BEE282A00257357 /* NSAttributedString+RichTextEditor.m in Sources */,
+				FFE70E7E1C4D3EF50031536C /* FMDatabase.m in Sources */,
+				FFAD02A01C55F71D0077A8BF /* ClassTable.swift in Sources */,
+				FF1AE67D1BFC871F004F0612 /* SchoolTableViewCell.swift in Sources */,
+				FF59574E1BEE282A00257357 /* RichTextEditorToggleButton.m in Sources */,
+				FF5957481BEE282A00257357 /* WEPopoverController.m in Sources */,
+				FFF0019F1BECD413000B5C07 /* QuizTableViewCell.swift in Sources */,
+				FF24FF1B1BFC4F6800107D11 /* TopicTableViewCell.swift in Sources */,
+				FF03770C1C05735D00B093C2 /* ScheduleDescriptionViewController.swift in Sources */,
+				FF44B0391BF5B5CB00938099 /* LessonDetailViewController.swift in Sources */,
+				FFEE71F91C30F8A6000CD43B /* StudentGradeTableViewCell.swift in Sources */,
+				FF5957461BEE282A00257357 /* UIBarButtonItem+WEPopover.m in Sources */,
+				FFEE3C021BEDD117009F238E /* StudentTableViewCell.swift in Sources */,
+				FF129DA91BFE005900299ED5 /* EditClassFeaturesViewController.swift in Sources */,
+				FFE42CB01C451CEF0099CE7E /* ProfileViewController.swift in Sources */,
+				FF6935491C04BC9200744AE3 /* ScheduleSelectDayViewController.swift in Sources */,
+				FFE70E8D1C4D4B8D0031536C /* ModelManager.swift in Sources */,
+				FFEFD7E51BF0C0BA00A29A5B /* StudentEnrollViewController.swift in Sources */,
+				FF59574F1BEE282A00257357 /* RichTextEditorToolbar.m in Sources */,
+				FFE70E891C4D457D0031536C /* GetFilePath.swift in Sources */,
+				FF7D00B01BFB67A6008E2805 /* ClassTypeViewController.swift in Sources */,
+				FFE70E7F1C4D3EF50031536C /* FMDatabaseAdditions.m in Sources */,
+				FFE5ACF91C06C21E004576C0 /* AllScheduleListViewController.swift in Sources */,
+				FFC406B11C05E1FA00A6E054 /* AddCuuriculumGradeViewController.swift in Sources */,
+				FFA0E3591C23E1D50046039F /* StudentQuizResultViewController.swift in Sources */,
+				FFF001A71BECF153000B5C07 /* QuizQuestionViewController.swift in Sources */,
+				FFA4B4DE1C1B1C3900A00C39 /* StudentDetailViewController.swift in Sources */,
+				FFEFD7D71BF0B9CB00A29A5B /* StudentQuizViewController.swift in Sources */,
+				FF59574B1BEE282A00257357 /* RichTextEditorColorPickerViewController.m in Sources */,
+				FFF0019A1BECD13A000B5C07 /* AddClassResourcesViewController.swift in Sources */,
+				FF29175C1C1F0C6700A2FD4E /* GradeQuizListTableViewCell.swift in Sources */,
+				FFC406AC1C05B5A700A6E054 /* AddCurriculumViewController.swift in Sources */,
+				FFEFD7CD1BF0A94700A29A5B /* StudentClassViewController.swift in Sources */,
+				FFEFD7D41BF0B83E00A29A5B /* StudentLessonTableViewCell.swift in Sources */,
+				FFEE3BFD1BEDC429009F238E /* AddClassScheduledViewController.swift in Sources */,
+				FF05BD451BFDD6B800B4C260 /* CreateClassDescriptionViewController.swift in Sources */,
+				FFEA7F061C1008840042C532 /* QuizLessonDescriptionViewController.swift in Sources */,
+				FFEFD7CF1BF0B33900A29A5B /* StudentClassTableViewCell.swift in Sources */,
+				FFEFD7C41BF0983400A29A5B /* SyllabusViewController.swift in Sources */,
+				FFE5ACFB1C06EF12004576C0 /* AllScheduleDataTableViewCell.swift in Sources */,
+				FFA355F11C50FA6D003171EA /* ResourceTable.swift in Sources */,
+				FFE70E801C4D3EF50031536C /* FMDatabasePool.m in Sources */,
+				FFEFD7DB1BF0BBA800A29A5B /* StudentQuizQuestionViewController.swift in Sources */,
+				FFF001811BECB253000B5C07 /* LessonsViewController.swift in Sources */,
+				FF3999161BFB7FDD000266EF /* ArtsViewController.swift in Sources */,
+				FFE6F65F1BEB22F400F597B5 /* DigitalLearningTree.xcdatamodeld in Sources */,
+				FFF0017C1BEC8459000B5C07 /* CreateClassViewController.swift in Sources */,
+				FFEE3BFB1BEDB933009F238E /* EditClassViewController.swift in Sources */,
+				FFF0018F1BECC14D000B5C07 /* CreateLessonViewController.swift in Sources */,
+				FF5957471BEE282A00257357 /* WEPopoverContainerView.m in Sources */,
+				FF59574D1BEE282A00257357 /* RichTextEditorFontSizePickerViewController.m in Sources */,
+				FF05BD431BFDC9F700B4C260 /* OtherViewController.swift in Sources */,
+				FF5957491BEE282A00257357 /* WETouchableView.m in Sources */,
+				FFEE71F71C30F6AE000CD43B /* GradeTableViewCell.swift in Sources */,
+				FFFA5E281BF19A45005E9D1F /* GradeDetailViewController.swift in Sources */,
+				FFEFD7E71BF0D83100A29A5B /* ChangePictureViewController.swift in Sources */,
+				FFEE3C041BEDD743009F238E /* AddStudentViewController.swift in Sources */,
+				FF3999141BFB714A000266EF /* TopicViewController.swift in Sources */,
+				FF5957361BEE282A00257357 /* UIView+RichTextEditor.m in Sources */,
+				FFE70E821C4D3EF50031536C /* FMResultSet.m in Sources */,
+				FFAD02981C55F2970077A8BF /* LPRTableView.swift in Sources */,
+				FF59574A1BEE282A00257357 /* RichTextEditor.m in Sources */,
+				FF3D720C1C32DC3E00537080 /* MultipleQuizQuestionViewController.swift in Sources */,
+				FFEFD7EB1BF0DED400A29A5B /* DeleteViewController.swift in Sources */,
+				FFF0017E1BEC88C2000B5C07 /* ClassNameAndDetailViewController.swift in Sources */,
+				FFF59D4E1BFAF80800D374D8 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFEFF8FB1C2BAA8A0030D038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = FFEFF8FA1C2BAA8A0030D038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFE6F65A1BEB22F400F597B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE6F65B1BEB22F400F597B5 /* Base */,
+			);
+			name = Main.storyboard;
+			path = DigitalLearningTree;
+			sourceTree = "<group>";
+		};
+		FFE6F6621BEB22F400F597B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE6F6631BEB22F400F597B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = DigitalLearningTree;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFE6F67C1BEB22F400F597B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Blake Lind (45H57BE726)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "9e106965-e8ae-4092-a035-87508d8bde8e";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/brst981/Documents/projects/DigitalLearningTree/DigitalLearningTree/DigitalLearningTreeTests/DLT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFE6F67D1BEB22F400F597B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Blake Lind (45H57BE726)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "9e106965-e8ae-4092-a035-87508d8bde8e";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/brst981/Documents/projects/DigitalLearningTree/DigitalLearningTree/DigitalLearningTreeTests/DLT-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFE6F67F1BEB22F400F597B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E23D46C3DD5EF9B865A63F31 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Blake Lind (45H57BE726)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Blake Lind (45H57BE726)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = DigitalLearningTree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blake.digtitalLearningTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9e106965-e8ae-4092-a035-87508d8bde8e";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/brst981/Documents/git/digitallearningtree-ios/DLT-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FFE6F6801BEB22F400F597B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD20560ADECEBCF60DF37EB1 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Blake Lind (45H57BE726)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Blake Lind (45H57BE726)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = DigitalLearningTree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blake.digtitalLearningTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9e106965-e8ae-4092-a035-87508d8bde8e";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/brst981/Documents/git/digitallearningtree-ios/DLT-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFE6F64E1BEB22F400F597B5 /* Build configuration list for PBXProject "DigitalLearningTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE6F67C1BEB22F400F597B5 /* Debug */,
+				FFE6F67D1BEB22F400F597B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE6F67E1BEB22F400F597B5 /* Build configuration list for PBXNativeTarget "DigitalLearningTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE6F67F1BEB22F400F597B5 /* Debug */,
+				FFE6F6801BEB22F400F597B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FFE6F65D1BEB22F400F597B5 /* DigitalLearningTree.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FFE6F65E1BEB22F400F597B5 /* DigitalLearningTree.xcdatamodel */,
+			);
+			currentVersion = FFE6F65E1BEB22F400F597B5 /* DigitalLearningTree.xcdatamodel */;
+			name = DigitalLearningTree.xcdatamodeld;
+			path = DigitalLearningTree/DigitalLearningTree.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FFE6F64B1BEB22F400F597B5 /* Project object */;
+}
